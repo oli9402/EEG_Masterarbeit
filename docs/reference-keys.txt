@@ -6,7 +6,9 @@ about
 usage
 render-book
 preview-book
+misc.unnumbered
 Intro
+importance-of-learning
 psychological-disorders-and-learning
 measuring-learning-different-paradigms
 visual-sequence-learning
