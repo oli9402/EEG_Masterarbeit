@@ -1,0 +1,7 @@
+# Methods 
+
+## Sample 
+## EEG and Age Groups 
+### Time Window, Electrodes 
+## Mixed Models 
+## Clusteranalyse 
