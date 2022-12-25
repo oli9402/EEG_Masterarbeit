@@ -1,0 +1,6 @@
+# Misc {#Misc}
+
+[@hedgeReliabilityParadoxWhy2018] talks about the difficulties, or paradox, that correlative research needs different data than experimental research. Another point made in this article is that: 
+
+* reliability in experimental research means: finding an effect realiable and little interindividual variance. 
+* reliability in correlational research means: ranking the subjects similar across time points: larger interindividual variance. 

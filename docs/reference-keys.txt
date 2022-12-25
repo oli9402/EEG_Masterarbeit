@@ -45,3 +45,4 @@ publishing
 pages
 metadata-for-sharing
 Misc
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
