@@ -6,6 +6,6 @@ bookdown::gitbook:
         <li><a href="./">EEG Masterarbeit</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/oli9402/EEG_Masterarbeit
+    edit: https://github.com/USERNAME/REPO/edit/BRANCH/%s
     download: ["pdf", "epub"]
 
