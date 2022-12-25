@@ -7,7 +7,6 @@ usage
 render-book
 preview-book
 Intro
-importance-of-learning
 psychological-disorders-and-learning
 measuring-learning-different-paradigms
 visual-sequence-learning
@@ -44,5 +43,3 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
-Misc
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
