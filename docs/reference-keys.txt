@@ -1,3 +1,5 @@
+fig:topo
+fig:erp
 fig:nice-fig
 tab:nice-tab
 eq:binom
@@ -6,7 +8,6 @@ about
 usage
 render-book
 preview-book
-misc.unnumbered
 Intro
 importance-of-learning
 psychological-disorders-and-learning

@@ -1,7 +1,25 @@
-# Methods 
+# Methods {#methods}
+
 
 ## Sample 
+
 ## EEG and Age Groups 
+
 ### Time Window, Electrodes 
+
+In the figure \@ref(fig:topo) we can see that the same electrodes can be used for all age groups. Furthermore, it seems as if the older age groups have less peak amplitude with shorter duration and less broad positivity. 
+
+```{r topo, echo=FALSE, out.width="70%", fig.cap="Topoplot of age groups.", fig.align = 'center'}
+knitr::include_graphics("pho/topoboth.jpg")
+```
+
+
+Plotting the erp of different age groups indicates that in the younger age groups it's possible that the p300 peak measure is confounded underlying broad positivity (see \@ref(erp)). 
+
+```{r erp, echo=FALSE, out.width="70%", fig.cap="Topoplot of age groups.", fig.align = 'center'}
+knitr::include_graphics("pho/ERPgroups.jpg")
+```
+
+
 ## Mixed Models 
 ## Clusteranalyse 
