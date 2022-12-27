@@ -1,13 +1,11 @@
 # (PART) Part 2: Study {-}
 # Introduction {#Intro}
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
-In Chapter \@ref(mi) check it out (ref:mi).
-CHeck out chaptehr \@ref(methods)
+
 
 ## Importance of Learning
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+
 
 ## Psychological disorders and Learning
 
