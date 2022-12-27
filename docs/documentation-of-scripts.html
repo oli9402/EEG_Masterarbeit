@@ -195,8 +195,10 @@ div.csl-indent {
 <div id="a1_table_eeg_bd" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> a1_table_EEG_BD<a href="documentation-of-scripts.html#a1_table_eeg_bd" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this script I took the script provided by Dawid and adjusted it to my data set.</p>
-<p><strong>Aim:</strong>
-* Create a table with of subjects with EEG and Behavior data</p>
+<p><strong>Aim:</strong></p>
+<ul>
+<li>Create a table with of subjects with EEG and Behavior data</li>
+</ul>
 <p>Data:</p>
 <ul>
 <li>HBN/EEG-ET_Joelle_MA_results</li>
@@ -340,15 +342,15 @@ reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
 Therefore, processing from here p300 peak is calculated base one a time window calcuted from group erp see <a href="methods.html#time-window-electrodes">Time Window, Electrodes</a>.</p>
 <div id="figures" class="section level3 hasAnchor" number="2.3.1">
 <h3><span class="header-section-number">2.3.1</span> Figures<a href="documentation-of-scripts.html#figures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The following figure <a href="documentation-of-scripts.html#fig:ip3">2.1</a> shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ip3"></span>
+<p>The following figure <a href="documentation-of-scripts.html#fig:ip">2.1</a> shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ip"></span>
 <img src="pho/alter57_latency.jpg" alt="Individual ERP for age 5 to 7 years" width="864" />
 <p class="caption">
 Figure 2.1: Individual ERP for age 5 to 7 years
 </p>
 </div>
-<p>Generally, for older age subject finding individual peaks wasn’t a challenge (see <a href="documentation-of-scripts.html#fig:ip3old">2.2</a>)</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ip3old"></span>
+<p>Generally, for older age subject finding individual peaks wasn’t a challenge (see <a href="documentation-of-scripts.html#fig:ipold">2.2</a>)</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ipold"></span>
 <img src="pho/age18_latency.jpg" alt="Individual ERP for age 18+" width="864" />
 <p class="caption">
 Figure 2.2: Individual ERP for age 18+
