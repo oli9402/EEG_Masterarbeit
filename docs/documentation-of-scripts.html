@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Documentation of Scripts | EEG Masterarbeit Titel</title>
+  <meta name="description" content="Masterarbeit am Lehrstuhl Methoden der Plastizitä an der Universität Zürich" />
+  <meta name="generator" content="bookdown 0.31 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Documentation of Scripts | EEG Masterarbeit Titel" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Masterarbeit am Lehrstuhl Methoden der Plastizitä an der Universität Zürich" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Documentation of Scripts | EEG Masterarbeit Titel" />
+  
+  <meta name="twitter:description" content="Masterarbeit am Lehrstuhl Methoden der Plastizitä an der Universität Zürich" />
+  
+
+<meta name="author" content="Oliver Zingg" />
+
+
+<meta name="date" content="2022-12-27" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="Intro.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">EEG Masterarbeit</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like https://bookdown.org/yihui/bookdown</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#todo"><i class="fa fa-check"></i>Todo</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#new-stuff-orientation"><i class="fa fa-check"></i>New stuff: orientation</a></li>
+</ul></li>
+<li class="part"><span><b>I Part 1: Matlab</b></span></li>
+<li class="chapter" data-level="2" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html"><i class="fa fa-check"></i><b>2</b> Documentation of Scripts</a>
+<ul>
+<li class="chapter" data-level="" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#todo-1"><i class="fa fa-check"></i>Todo</a></li>
+<li class="chapter" data-level="2.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a1_table_eeg_bd"><i class="fa fa-check"></i><b>2.1</b> a1_table_EEG_BD</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details"><i class="fa fa-check"></i><b>2.1.1</b> Details</a></li>
+<li class="chapter" data-level="2.1.2" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#saved-files"><i class="fa fa-check"></i><b>2.1.2</b> saved Files</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a2_add_demo"><i class="fa fa-check"></i><b>2.2</b> a2_add_demo</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details-1"><i class="fa fa-check"></i><b>2.2.1</b> Details</a></li>
+<li class="chapter" data-level="2.2.2" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#saved-files-1"><i class="fa fa-check"></i><b>2.2.2</b> Saved Files</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_compute_latencies"><i class="fa fa-check"></i><b>2.3</b> a3_compute_latencies</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#figures"><i class="fa fa-check"></i><b>2.3.1</b> Figures</a></li>
+</ul></li>
+</ul></li>
+<li class="part"><span><b>II Part 2: Study</b></span></li>
+<li class="chapter" data-level="3" data-path="Intro.html"><a href="Intro.html"><i class="fa fa-check"></i><b>3</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="Intro.html"><a href="Intro.html#importance-of-learning"><i class="fa fa-check"></i><b>3.1</b> Importance of Learning</a></li>
+<li class="chapter" data-level="3.2" data-path="Intro.html"><a href="Intro.html#psychological-disorders-and-learning"><i class="fa fa-check"></i><b>3.2</b> Psychological disorders and Learning</a></li>
+<li class="chapter" data-level="3.3" data-path="Intro.html"><a href="Intro.html#measuring-learning-different-paradigms"><i class="fa fa-check"></i><b>3.3</b> Measuring Learning, Different Paradigms</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="Intro.html"><a href="Intro.html#visual-sequence-learning"><i class="fa fa-check"></i><b>3.3.1</b> Visual Sequence Learning</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="Intro.html"><a href="Intro.html#why-eeg"><i class="fa fa-check"></i><b>3.4</b> Why EEG</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="Intro.html"><a href="Intro.html#biomarker-and-research-domain-critica"><i class="fa fa-check"></i><b>3.4.1</b> Biomarker and Research Domain Critica</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="Intro.html"><a href="Intro.html#erp-p3000-models-and-theories"><i class="fa fa-check"></i><b>3.5</b> ERP, P3000, Models and Theories</a></li>
+<li class="chapter" data-level="3.6" data-path="Intro.html"><a href="Intro.html#previous-research"><i class="fa fa-check"></i><b>3.6</b> Previous research</a></li>
+<li class="chapter" data-level="3.7" data-path="Intro.html"><a href="Intro.html#research-gap"><i class="fa fa-check"></i><b>3.7</b> Research Gap?</a></li>
+<li class="chapter" data-level="3.8" data-path="Intro.html"><a href="Intro.html#big-data"><i class="fa fa-check"></i><b>3.8</b> Big Data</a></li>
+<li class="chapter" data-level="3.9" data-path="Intro.html"><a href="Intro.html#hypothesis"><i class="fa fa-check"></i><b>3.9</b> Hypothesis</a></li>
+<li class="chapter" data-level="3.10" data-path="Intro.html"><a href="Intro.html#expolrative-goal"><i class="fa fa-check"></i><b>3.10</b> Expolrative Goal</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="methods.html"><a href="methods.html#sample"><i class="fa fa-check"></i><b>4.1</b> Sample</a></li>
+<li class="chapter" data-level="4.2" data-path="methods.html"><a href="methods.html#eeg-and-age-groups"><i class="fa fa-check"></i><b>4.2</b> EEG and Age Groups</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="methods.html"><a href="methods.html#time-window-electrodes"><i class="fa fa-check"></i><b>4.2.1</b> Time Window, Electrodes</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="methods.html"><a href="methods.html#mixed-models"><i class="fa fa-check"></i><b>4.3</b> Mixed Models</a></li>
+<li class="chapter" data-level="4.4" data-path="methods.html"><a href="methods.html#clusteranalyse"><i class="fa fa-check"></i><b>4.4</b> Clusteranalyse</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="Results.html"><a href="Results.html"><i class="fa fa-check"></i><b>5</b> Results</a></li>
+<li class="chapter" data-level="6" data-path="Disscusion.html"><a href="Disscusion.html"><i class="fa fa-check"></i><b>6</b> Discussion</a></li>
+<li class="chapter" data-level="7" data-path="Limitations.html"><a href="Limitations.html"><i class="fa fa-check"></i><b>7</b> Limitations</a></li>
+<li class="chapter" data-level="8" data-path="Further.html"><a href="Further.html"><i class="fa fa-check"></i><b>8</b> Further Research</a></li>
+<li class="part"><span><b>III Part 3: Generall</b></span></li>
+<li class="chapter" data-level="" data-path="mi.html"><a href="mi.html"><i class="fa fa-check"></i>Misc</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">EEG Masterarbeit Titel</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="documentation-of-scripts" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Documentation of Scripts<a href="documentation-of-scripts.html#documentation-of-scripts" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="todo-1" class="section level2 unnumbered hasAnchor">
+<h2>Todo<a href="documentation-of-scripts.html#todo-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Plots with font size 20</li>
+<li>KI, LI in full_tab</li>
+<li>transfer data and scripts to dynage cloud (better for dawid)?</li>
+<li>topoplot with data from new compiled table (dawid), should be the same</li>
+<li>In total three tables:
+<ul>
+<li>full_tab with one erp / trial + <strong>no</strong> baseline correction (multilevel)</li>
+<li>table for topoplot: 105 electrodes for every trial (topoplot)</li>
+<li>table one erp /trial <strong>with</strong> baseline correction (for plots)</li>
+</ul></li>
+</ul>
+</div>
+<div id="a1_table_eeg_bd" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> a1_table_EEG_BD<a href="documentation-of-scripts.html#a1_table_eeg_bd" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this script I took the script provided by Dawid and adjusted it to my data set.</p>
+<p><strong>Aim:</strong>
+* Create a table with of subjects with EEG and Behavior data</p>
+<p>Data:</p>
+<ul>
+<li>HBN/EEG-ET_Joelle_MA_results</li>
+<li>Behavioral: _vis_learn.mat</li>
+<li>EEG: (g)ip.mat</li>
+</ul>
+<div id="details" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Details<a href="documentation-of-scripts.html#details" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Noisy channels were excluded:</p>
+<blockquote>
+<pre><code>noisy_chan = [1 8 14 17 21 25 32 48 49 56 63 68 73 81 88 94 99 107 113 119 125 126 127 128];</code></pre>
+</blockquote>
+<p>Triggers:</p>
+<blockquote>
+<pre><code>trigger = [11,12,13,14,15,16,17,18];</code></pre>
+</blockquote>
+<p><span style="color: red;">TODO:</span> do younger subjects with less stimuli have same trigger numbers? Look up do all have 8 sequence?</p>
+<p>Categories are created: UN, NL, K, F</p>
+<p>Accuracy is created: 0/1 (correct/false)</p>
+<p>Distance from newly learned is created</p>
+<p><span style="color: red;">TODO:</span> Check if this is correct. Can be done in other script only table. Check what happens with two forgotten?</p>
+<p><strong>Filtering</strong></p>
+<blockquote>
+<pre><code>EEG = pop_eegfiltnew(EEG,[],45);</code></pre>
+</blockquote>
+<p><strong>Re-referencing</strong></p>
+<blockquote>
+<pre><code>EEG = pop_reref(EEG, [], &#39;keepref&#39;, &#39;on&#39;);</code></pre>
+</blockquote>
+<p><strong>Segmentation</strong></p>
+<blockquote>
+<pre><code>EEG = pop_epoch(EEG, {11,12,13,14,15,16,17,18}, [-0.1 0.8]); </code></pre>
+</blockquote>
+<p><strong>Artifact rejection</strong></p>
+<blockquote>
+<pre><code>  thresh = 90;</code></pre>
+</blockquote>
+<blockquote>
+<pre><code>  ind(idx4, 1) = squeeze(sum(sum([(full_table.Var4{idx4}(1:105, :) &gt; thresh) | &gt; (full_table.Var4{idx4}(1:105, :) &lt; -thresh)],1),2) == 0);</code></pre>
+</blockquote>
+<blockquote>
+<pre><code>  ind = logical(ind);
+  full_table = full_table(ind,:);</code></pre>
+</blockquote>
+<p>Reject file:</p>
+<blockquote>
+<pre><code>reject{1, index} = id;
+reject{2, index} = sum(ind); % wie viele ausgeschlossen
+reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
+</blockquote>
+<p><strong>Select electrodes</strong> (without CZ)</p>
+<blockquote>
+<pre><code>channels = logical(E54 + E55 + E61 + E62 + E78 + E79);</code></pre>
+</blockquote>
+<p><strong>create one ERP out of selected electrodes</strong></p>
+</div>
+<div id="saved-files" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> saved Files<a href="documentation-of-scripts.html#saved-files" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Reject with numbers of trials that are?? <span style="color: red;">TODO:</span> when reject?</p>
+<blockquote>
+<pre><code>save rejected.mat reject</code></pre>
+</blockquote>
+<p>full_tab</p>
+<blockquote>
+<pre><code>save full_tab.mat full_tab</code></pre>
+</blockquote>
+</div>
+</div>
+<div id="a2_add_demo" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> a2_add_demo<a href="documentation-of-scripts.html#a2_add_demo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this script the table generated by <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a> is used to add multiple variables. The data comes from excel file:</p>
+<blockquote>
+<pre><code>bd = readtable(&quot;C:\Users\Oli\OneDrive - Universität Zürich UZH\Master3\MA\Excel HBN\BD.csv&quot;);</code></pre>
+</blockquote>
+<p><strong>Variables created:</strong></p>
+<ul>
+<li>Primary Diagnose (DX01)</li>
+<li>All diagnosis</li>
+<li>Comorbitity</li>
+<li>Gender</li>
+<li>Age</li>
+<li>No behavioral/demo data</li>
+</ul>
+<p>Furthermore, in this script explores how many subject out of full_tab will be excluded because of too many bad trials (reject file, see <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a>)</p>
+<div id="details-1" class="section level3 hasAnchor" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Details<a href="documentation-of-scripts.html#details-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>How many subjects are in full_tab (have EEG and Behavioral) but are have no demographics in the excel file: <strong>90</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Argument</th>
+<th align="left">N</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Not in excel</td>
+<td align="left">90</td>
+</tr>
+<tr class="even">
+<td align="left">0% good trials</td>
+<td align="left">111</td>
+</tr>
+<tr class="odd">
+<td align="left">100% good trials</td>
+<td align="left">132</td>
+</tr>
+<tr class="even">
+<td align="left">&lt; 75% good trials</td>
+<td align="left">1003</td>
+</tr>
+<tr class="odd">
+<td align="left">&lt; 50% good trials</td>
+<td align="left">350</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Trial influence on power</strong></p>
+<p>50% of trials = square(0.5) of original SNR. 0.75 of trials = 86% of original SNR <span class="citation">(<a href="#ref-luckIntroductionEventrelatedPotential2014" role="doc-biblioref">Luck 2014</a>)</span>.</p>
+<p><span style="color: red;">TODO:</span> Add KI (normal and with weight 1 = accuracy/correct per block) and LI</p>
+</div>
+<div id="saved-files-1" class="section level3 hasAnchor" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Saved Files<a href="documentation-of-scripts.html#saved-files-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>full_tab with demo saved as full_tab_a2</p>
+<blockquote>
+<p>save full_tab_a2.mat full_tab</p>
+</blockquote>
+<p>file with index for subject without demographics</p>
+<blockquote>
+<p>save no_bd_data.mat idx</p>
+</blockquote>
+<p>modified reject file</p>
+<blockquote>
+<p>save rejected_a2.mat reject</p>
+</blockquote>
+</div>
+</div>
+<div id="a3_compute_latencies" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> a3_compute_latencies<a href="documentation-of-scripts.html#a3_compute_latencies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This script aims at computing p300 peak for individuals without forming a group.Using a method described in <span class="citation">(<a href="#ref-liesefeldEstimatingTimingCognitive2018" role="doc-biblioref">Liesefeld 2018</a>)</span>, the data set presented a challenge in computing individual p300 peaks. Especially, finding the offset value seemed to be the problem, since many subject had a broad positive deflection at the end of an erp. Using a time window of 300-600 ms post stimulus and increasing percAmp from 0.6 to 0.8 led to warning for 14 subjects. Still, having a percAmp of 0.8 may be too high.
+Therefore, processing from here p300 peak is calculated base one a time window calcuted from group erp see <a href="methods.html#time-window-electrodes">Time Window, Electrodes</a>.</p>
+<div id="figures" class="section level3 hasAnchor" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Figures<a href="documentation-of-scripts.html#figures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The following figure <a href="documentation-of-scripts.html#fig:indp3">2.1</a> shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:indp3"></span>
+<img src="pho/alter57_latency.jpg" alt="Individual ERP for age 5 to 7 years" width="864" />
+<p class="caption">
+Figure 2.1: Individual ERP for age 5 to 7 years
+</p>
+</div>
+<p>Generally, for older age subject finding individual peaks wasn’t a challenge (see <a href="documentation-of-scripts.html#fig:indp3old">2.2</a>)</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:indp3old"></span>
+<img src="pho/age18_latency.jpg" alt="Individual ERP for age 18+" width="864" />
+<p class="caption">
+Figure 2.2: Individual ERP for age 18+
+</p>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-liesefeldEstimatingTimingCognitive2018" class="csl-entry">
+Liesefeld, Heinrich René. 2018. <span>“<span><span class="math inline">\(\medwhitestar\)</span></span>🟡<span>Estimating</span> the <span>Timing</span> of <span>Cognitive Operations With MEG</span>/<span>EEG Latency Measures</span>: <span>A Primer</span>, a <span>Brief Tutorial</span>, and an <span>Implementation</span> of <span>Various Methods</span>.”</span> <em>Frontiers in Neuroscience</em> 12. <a href="https://www.frontiersin.org/articles/10.3389/fnins.2018.00765">https://www.frontiersin.org/articles/10.3389/fnins.2018.00765</a>.
+</div>
+<div id="ref-luckIntroductionEventrelatedPotential2014" class="csl-entry">
+Luck, Steven J. 2014. <em>🟡<span>An</span> Introduction to the Event-Related Potential Technique</em>. Second edition. <span>Cambridge, Massachusetts</span>: <span>The MIT Press</span>.
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="Intro.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-MatlabDoc.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
