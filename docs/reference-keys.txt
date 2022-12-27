@@ -35,3 +35,5 @@ fig:indp3
 a3_compute_latencies
 figures
 fig:indp3old
+fig:ip3
+fig:ip3old

@@ -156,15 +156,15 @@ Therefore, processing from here p300 peak is calculated base one a time window c
 
 ### Figures
 
-The following figure \@ref(fig:indp3) shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic. 
+The following figure \@ref(fig:ip3) shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic. 
 
-```{r indp3, echo=FALSE, fig.cap="Individual ERP for age 5 to 7 years", fig.align = 'center'}
+```{r ip3, echo=FALSE, fig.cap="Individual ERP for age 5 to 7 years", fig.align = 'center'}
 knitr::include_graphics("pho/alter57_latency.jpg")
 ```
 
 
-Generally, for older age subject finding individual peaks wasn't a challenge (see \@ref(fig:indp3old))
+Generally, for older age subject finding individual peaks wasn't a challenge (see \@ref(fig:ip3old))
 
-```{r indp3old, echo=FALSE, fig.cap="Individual ERP for age 18+", fig.align = 'center'}
+```{r ip3old, echo=FALSE, fig.cap="Individual ERP for age 18+", fig.align = 'center'}
 knitr::include_graphics("pho/age18_latency.jpg")
 ```

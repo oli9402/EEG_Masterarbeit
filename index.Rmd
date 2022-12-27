@@ -36,7 +36,7 @@ This file is a documentation of my master thesis:
 |:------------|:------------|:------------|:----------|
 | Fig:Topoplot | [Time Window, Electrodes]        |\@ref(fig:topo)| 19.12.2022 |
 | Fig: ERP | [Time Window, Electrodes]        |\@ref(fig:erp)| 19.12.2022|
-| Individual Peaks | [a3_compute_latencies] | \@ref(fig:indp3) , \@ref(fig:indp3old)| 27.12.2022| 
+| Individual Peaks | [a3_compute_latencies] |\@ref(fig:indp3), \@ref(fig:indp3old)| 27.12.2022| 
 
 
 ```{r include=FALSE}
