@@ -112,8 +112,6 @@ Furthermore, in this script explores how many subject out of full_tab will be ex
 
 ### Details 
 
-How many subjects are in full_tab (have EEG and Behavioral) but are have no demographics in the excel file: **90** 
-
 
 | Argument         | N |
 |:------------|:------------|
@@ -122,6 +120,8 @@ How many subjects are in full_tab (have EEG and Behavioral) but are have no demo
 |100% good trials |   132    |
 |< 75% good trials |    1003    |
 |< 50% good trials |   350   |
+|< 50% good trials & in full_tab| 249| 
+
 
 
 **Trial influence on power** 
@@ -130,8 +130,34 @@ How many subjects are in full_tab (have EEG and Behavioral) but are have no demo
 
 
 
-<span style="color: red;">TODO:</span> Add KI (normal and with weight 1 = accuracy/correct per block) and LI 
+**Knowledge Index & Learning Index**
 
+The *Knowledge Index* and *Learning Index* were calculated in line with the paper of [@steinemannTrackingNeuralCorrelates2016] with the following forumla:
+
+
+$$\begin{align}
+    \text{Knowledge Index}(S,b) &= \frac{n_K(S,b)+ 0.5*n_{NL}(S,b)}{n_T(S,b)}\\
+    \text{Learning Index}(S,b) &=\frac{n_{NL}(S,b)}{n_T(S,b)}\\
+    \\
+    \text{where}~S &= \text{Subject,} \\
+  b &= \text{Block,}\\
+  K &= \text{Known Stimuli,}\\
+  NL &= \text{Newly Learned Stimuli,}\\
+  T &= \text{Total Stimuli}\\
+
+\end{align}$$
+
+A second *Knowledge Index* without the weight of 0.5 was calculated as well since the experimental desgin differs from the one in [@steinemannTrackingNeuralCorrelates2016]:
+
+$$\begin{align}
+    \text{Knowledge Index}(S,b) &= \frac{n_K(S,b)+ n_{NL}(S,b)}{n_T(S,b)}\\
+\end{align}$$
+
+
+
+**Reject File**
+
+The reject file was modified to show which to be rejected subjects are not found in full_tab. Furthermore, the age of all found subjects was included in the 7th row to further see the age distribution of rejected subjects. 
 
 ### Saved Files 
 

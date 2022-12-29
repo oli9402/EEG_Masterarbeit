@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2022-12-27" />
+<meta name="date" content="2022-12-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.0/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 
@@ -285,7 +289,6 @@ reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
 <p>Furthermore, in this script explores how many subject out of full_tab will be excluded because of too many bad trials (reject file, see <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a>)</p>
 <div id="details-1" class="section level3 hasAnchor" number="1.2.1">
 <h3><span class="header-section-number">1.2.1</span> Details<a href="documentation-of-scripts.html#details-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>How many subjects are in full_tab (have EEG and Behavioral) but are have no demographics in the excel file: <strong>90</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -314,11 +317,33 @@ reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
 <td align="left">&lt; 50% good trials</td>
 <td align="left">350</td>
 </tr>
+<tr class="even">
+<td align="left">&lt; 50% good trials &amp; in full_tab</td>
+<td align="left">249</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Trial influence on power</strong></p>
 <p>50% of trials = square(0.5) of original SNR. 0.75 of trials = 86% of original SNR <span class="citation">(<a href="#ref-luckIntroductionEventrelatedPotential2014" role="doc-biblioref">Luck 2014</a>)</span>.</p>
-<p><span style="color: red;">TODO:</span> Add KI (normal and with weight 1 = accuracy/correct per block) and LI</p>
+<p><strong>Knowledge Index &amp; Learning Index</strong></p>
+<p>The <em>Knowledge Index</em> and <em>Learning Index</em> were calculated in line with the paper of <span class="citation">(<a href="#ref-steinemannTrackingNeuralCorrelates2016" role="doc-biblioref">Steinemann et al. 2016</a>)</span> with the following forumla:</p>
+<p>$$<span class="math display">\[\begin{align}
+    \text{Knowledge Index}(S,b) &amp;= \frac{n_K(S,b)+ 0.5*n_{NL}(S,b)}{n_T(S,b)}\\
+    \text{Learning Index}(S,b) &amp;=\frac{n_{NL}(S,b)}{n_T(S,b)}\\
+    \\
+    \text{where}~S &amp;= \text{Subject,} \\
+  b &amp;= \text{Block,}\\
+  K &amp;= \text{Known Stimuli,}\\
+  NL &amp;= \text{Newly Learned Stimuli,}\\
+  T &amp;= \text{Total Stimuli}\\
+
+\end{align}\]</span>$$</p>
+<p>A second <em>Knowledge Index</em> without the weight of 0.5 was calculated as well since the experimental desgin differs from the one in <span class="citation">(<a href="#ref-steinemannTrackingNeuralCorrelates2016" role="doc-biblioref">Steinemann et al. 2016</a>)</span>:</p>
+<p><span class="math display">\[\begin{align}
+    \text{Knowledge Index}(S,b) &amp;= \frac{n_K(S,b)+ n_{NL}(S,b)}{n_T(S,b)}\\
+\end{align}\]</span></p>
+<p><strong>Reject File</strong></p>
+<p>The reject file was modified to show which to be rejected subjects are not found in full_tab. Furthermore, the age of all found subjects was included in the 7th row to further see the age distribution of rejected subjects.</p>
 </div>
 <div id="saved-files-1" class="section level3 hasAnchor" number="1.2.2">
 <h3><span class="header-section-number">1.2.2</span> Saved Files<a href="documentation-of-scripts.html#saved-files-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
@@ -370,6 +395,9 @@ Liesefeld, Heinrich René. 2018. <span>“Estimating the <span>Timing</span> of 
 </div>
 <div id="ref-luckIntroductionEventrelatedPotential2014" class="csl-entry">
 Luck, Steven J. 2014. <em>An Introduction to the Event-Related Potential Technique</em>. Second edition. <span>Cambridge, Massachusetts</span>: <span>The MIT Press</span>.
+</div>
+<div id="ref-steinemannTrackingNeuralCorrelates2016" class="csl-entry">
+Steinemann, Natalie A., Clara Moisello, M. Felice Ghilardi, and Simon P. Kelly. 2016. <span>“Tracking Neural Correlates of Successful Learning over Repeated Sequence Observations.”</span> <em>NeuroImage</em> 137 (August): 152–64. <a href="https://doi.org/10.1016/j.neuroimage.2016.05.001">https://doi.org/10.1016/j.neuroimage.2016.05.001</a>.
 </div>
 </div>
             </section>
@@ -432,6 +460,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

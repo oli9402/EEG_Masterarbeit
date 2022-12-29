@@ -3,6 +3,35 @@
 
 ## Sample 
 
+Figure \@ref(fig: graph) Shows the subjects excluding process.
+
+```{r, echo= FALSE}
+library(DiagrammeR)
+DiagrammeR::grViz("digraph {
+  graph [layout = dot, rankdir = TB]
+  
+  node [shape = rectangle]        
+  rec1 [label = 'HBN Joelle: 
+  n = 2999']
+  rec2 [label = 'EEG and Behavioral Data:
+  n = 2091']
+  rec3 [label = 'Exlclude: bad EEG (n = 224):
+  n = 1867']
+  rec4 [label = 'Exlclude: less than 0.5 good trials (n = 177):
+  n = 1690']
+  rec5 [label = 'Exlclude: no demographics (n = 74):
+  n = 1616']
+  rec6 [label = 'Total Sample Size n = 1616']
+  
+  # edge definitions with the node IDs
+  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6
+  }",
+  height = 300)
+  
+```
+
+
+
 ## EEG and Age Groups 
 
 ### Time Window, Electrodes 

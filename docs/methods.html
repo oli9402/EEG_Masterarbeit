@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2022-12-27" />
+<meta name="date" content="2022-12-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.0/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 
@@ -179,6 +183,9 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 3</span> Methods<a href="methods.html#methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="sample" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Sample<a href="methods.html#sample" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Figure @ref(fig: graph) Shows the subjects excluding process.</p>
+<div id="htmlwidget-8c95276b4f30c0bce30f" style="width:672px;height:300px;" class="grViz html-widget "></div>
+<script type="application/json" data-for="htmlwidget-8c95276b4f30c0bce30f">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HBN Joelle: \n  n = 2999\"]\n  rec2 [label = \"EEG and Behavioral Data:\n  n = 2091\"]\n  rec3 [label = \"Exlclude: bad EEG (n = 224):\n  n = 1867\"]\n  rec4 [label = \"Exlclude: less than 0.5 good trials (n = 177):\n  n = 1690\"]\n  rec5 [label = \"Exlclude: no demographics (n = 74):\n  n = 1616\"]\n  rec6 [label = \"Total Sample Size n = 1616\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="eeg-and-age-groups" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> EEG and Age Groups<a href="methods.html#eeg-and-age-groups" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -268,6 +275,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

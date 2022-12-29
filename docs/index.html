@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2022-12-27" />
+<meta name="date" content="2022-12-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.0/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 
@@ -178,7 +182,7 @@ div.csl-indent {
 <div id="header">
 <h1 class="title">EEG Masterarbeit Titel</h1>
 <p class="author"><em>Oliver Zingg</em></p>
-<p class="date"><em>2022-12-27</em></p>
+<p class="date"><em>2022-12-28</em></p>
 </div>
 <div id="about" class="section level1 unnumbered hasAnchor">
 <h1>About<a href="index.html#about" class="anchor-section" aria-label="Anchor link to header"></a></h1>
@@ -243,6 +247,12 @@ div.csl-indent {
 <td align="left"><a href="documentation-of-scripts.html#a3_compute_latencies">a3_compute_latencies</a></td>
 <td align="left"><a href="documentation-of-scripts.html#fig:ip">1.1</a>, <a href="documentation-of-scripts.html#fig:ipold">1.2</a></td>
 <td align="left">27.12.2022</td>
+</tr>
+<tr class="even">
+<td align="left">Subjects Excluded</td>
+<td align="left"><a href="methods.html#sample">Sample</a></td>
+<td align="left"><a href="#fig:graph"><strong>??</strong></a></td>
+<td align="left">28.12.2022</td>
 </tr>
 </tbody>
 </table>
@@ -312,6 +322,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

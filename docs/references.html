@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2022-12-27" />
+<meta name="date" content="2022-12-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -52,6 +52,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.0/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.9/grViz.js"></script>
 
 
 
@@ -188,6 +192,9 @@ Liesefeld, Heinrich René. 2018. <span>“Estimating the <span>Timing</span> of 
 <div class="csl-entry">
 Luck, Steven J. 2014. <em>An Introduction to the Event-Related Potential Technique</em>. Second edition. <span>Cambridge, Massachusetts</span>: <span>The MIT Press</span>.
 </div>
+<div class="csl-entry">
+Steinemann, Natalie A., Clara Moisello, M. Felice Ghilardi, and Simon P. Kelly. 2016. <span>“Tracking Neural Correlates of Successful Learning over Repeated Sequence Observations.”</span> <em>NeuroImage</em> 137 (August): 152–64. <a href="https://doi.org/10.1016/j.neuroimage.2016.05.001">https://doi.org/10.1016/j.neuroimage.2016.05.001</a>.
+</div>
 </div>
 </div>
             </section>
@@ -250,6 +257,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
