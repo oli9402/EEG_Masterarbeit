@@ -3,9 +3,10 @@
 
 ## Sample 
 
-Figure \@ref(fig: dia_sample) Shows the subjects excluding process.
+Figure \@ref(fig:dias) Shows the subjects excluding process.
 
-```{r dia_sample, echo= FALSE , fig.align='center', fig.cap="Exlcuding subjects.", out.width="100%"}
+```{r dias, echo= FALSE , fig.align='center', fig.cap="Exlcuding subjects.", out.width="100%"}
+
 library(DiagrammeR)
 DiagrammeR::grViz("digraph {
   graph [layout = dot, rankdir = TB]

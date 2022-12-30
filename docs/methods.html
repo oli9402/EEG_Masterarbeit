@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2022-12-28" />
+<meta name="date" content="2022-12-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -183,26 +183,31 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 3</span> Methods<a href="methods.html#methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="sample" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Sample<a href="methods.html#sample" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Figure @ref(fig: graph) Shows the subjects excluding process.</p>
-<div id="htmlwidget-8c95276b4f30c0bce30f" style="width:672px;height:300px;" class="grViz html-widget "></div>
-<script type="application/json" data-for="htmlwidget-8c95276b4f30c0bce30f">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HBN Joelle: \n  n = 2999\"]\n  rec2 [label = \"EEG and Behavioral Data:\n  n = 2091\"]\n  rec3 [label = \"Exlclude: bad EEG (n = 224):\n  n = 1867\"]\n  rec4 [label = \"Exlclude: less than 0.5 good trials (n = 177):\n  n = 1690\"]\n  rec5 [label = \"Exlclude: no demographics (n = 74):\n  n = 1616\"]\n  rec6 [label = \"Total Sample Size n = 1616\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p>Figure <a href="methods.html#fig:dias">3.1</a> Shows the subjects excluding process.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:dias"></span>
+<div id="htmlwidget-057b36ddc71de6e8b9e2" style="width:100%;height:500px;" class="grViz html-widget "></div>
+<script type="application/json" data-for="htmlwidget-057b36ddc71de6e8b9e2">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HBN Joelle: \n  n = 2999\"]\n  rec2 [label = \"EEG and Behavioral Data:\n  n = 2091\"]\n  rec3 [label = \"Exlclude: bad EEG (n = 224):\n  n = 1867\"]\n  rec4 [label = \"Exlclude: less than 0.5 good trials (n = 177):\n  n = 1690\"]\n  rec5 [label = \"Exlclude: no demographics (n = 74):\n  n = 1616\"]\n  rec6 [label = \"Total Sample Size n = 1616\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 3.1: Exlcuding subjects.
+</p>
+</div>
 </div>
 <div id="eeg-and-age-groups" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> EEG and Age Groups<a href="methods.html#eeg-and-age-groups" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="time-window-electrodes" class="section level3 hasAnchor" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Time Window, Electrodes<a href="methods.html#time-window-electrodes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In the figure <a href="methods.html#fig:topo">3.1</a> we can see that the same electrodes can be used for all age groups. Furthermore, it seems as if the older age groups have less peak amplitude with shorter duration and less broad positivity.</p>
+<p>In the figure <a href="methods.html#fig:topo">3.2</a> we can see that the same electrodes can be used for all age groups. Furthermore, it seems as if the older age groups have less peak amplitude with shorter duration and less broad positivity.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:topo"></span>
 <img src="pho/topoboth.jpg" alt="Topoplot of age groups." width="70%" />
 <p class="caption">
-Figure 3.1: Topoplot of age groups.
+Figure 3.2: Topoplot of age groups.
 </p>
 </div>
-<p>Plotting the erp of different age groups indicates that in the younger age groups it’s possible that the p300 peak measure is confounded underlying broad positivity (see <a href="methods.html#fig:erp">3.2</a>).</p>
+<p>Plotting the erp of different age groups indicates that in the younger age groups it’s possible that the p300 peak measure is confounded underlying broad positivity (see <a href="methods.html#fig:erp">3.3</a>).</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:erp"></span>
 <img src="pho/ERPgroups.jpg" alt="Topoplot of age groups." width="70%" />
 <p class="caption">
-Figure 3.2: Topoplot of age groups.
+Figure 3.3: Topoplot of age groups.
 </p>
 </div>
 </div>
