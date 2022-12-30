@@ -20,9 +20,9 @@ DiagrammeR::grViz("digraph {
   n = 1867']
   rec4 [label = 'Exlclude: less than 0.5 good trials (n = 177):
   n = 1690']
-  rec5 [label = 'Exlclude: no demographics (n = 74):
-  n = 1616']
-  rec6 [label = 'Total Sample Size n = 1616']
+  rec5 [label = 'Exlclude: no demographics (n = 91):
+  n = 1599']
+  rec6 [label = 'Total Sample Size n = 1599']
   
   # edge definitions with the node IDs
   rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6
