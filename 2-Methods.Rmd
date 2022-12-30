@@ -3,9 +3,9 @@
 
 ## Sample 
 
-Figure \@ref(fig: graph) Shows the subjects excluding process.
+Figure \@ref(fig: dia_sample) Shows the subjects excluding process.
 
-```{r, echo= FALSE}
+```{r dia_sample, echo= FALSE , fig.align='center', fig.cap="Exlcuding subjects.", out.width="100%"}
 library(DiagrammeR)
 DiagrammeR::grViz("digraph {
   graph [layout = dot, rankdir = TB]
@@ -26,7 +26,7 @@ DiagrammeR::grViz("digraph {
   # edge definitions with the node IDs
   rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6
   }",
-  height = 300)
+  height = 500)
   
 ```
 
