@@ -51,7 +51,7 @@ knitr::include_graphics("pho/to.png")
 Plotting the erp of different age groups indicates that in the younger age groups it's possible that the p300 peak measure is confounded underlying broad positivity (see \@ref(fig:erp)). 
 
 ```{r erp, echo=FALSE, out.width="100%", fig.cap="ERP of age groups.", fig.align = 'center'}
-knitr::include_graphics("pho/ERPgroups.jpg")
+knitr::include_graphics("pho/erp_groups.jpg")
 ```
 
 

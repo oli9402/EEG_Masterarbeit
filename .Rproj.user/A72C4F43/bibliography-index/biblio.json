@@ -17833,5 +17833,9 @@
             "type": "book"
         }
     ],
-    "project_biblios": []
+    "project_biblios": [
+        "zotero.bib",
+        "book.bib",
+        "packages.bib"
+    ]
 }
