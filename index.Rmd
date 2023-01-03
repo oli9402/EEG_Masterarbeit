@@ -30,6 +30,13 @@ This file is a documentation of my master thesis:
 |:------------|:------------|
 | Plots with baseline correct |        |
 
+## Fragen an Dawid {-}
+
+| What              | Chapter |
+|:------------|:------------|
+| p300 peak ist eher BP? |  \@ref(fig:erp)      |
+
+
 ## New stuff: orientation {-}
 
 | What              | Chapter | Link| Date|
