@@ -43,11 +43,15 @@ In the figure \@ref(fig:topo) we can see that the same electrodes can be used fo
 knitr::include_graphics("pho/topoboth.jpg")
 ```
 
+Updated topoplot but not as clearly view able maybe add less time points and/or do "all ages" separately (\@ref(fig:topon)) ? 
 
+```{r topo-n, echo=FALSE, out.width="100%", fig.cap="Topoplot of age groups.", fig.align = 'center'}
+knitr::include_graphics("pho/to.png")
+```
 Plotting the erp of different age groups indicates that in the younger age groups it's possible that the p300 peak measure is confounded underlying broad positivity (see \@ref(fig:erp)). 
 
-```{r erp, echo=FALSE, out.width="100%", fig.cap="Topoplot of age groups.", fig.align = 'center'}
-knitr::include_graphics("pho/topo_final.svg")
+```{r erp, echo=FALSE, out.width="100%", fig.cap="ERP of age groups.", fig.align = 'center'}
+knitr::include_graphics("pho/ERPgroups.jpg")
 ```
 
 

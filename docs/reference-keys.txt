@@ -2,6 +2,7 @@ fig:ip
 fig:ipold
 fig:dias
 fig:topo
+fig:topo2
 fig:erp
 documentation-of-scripts
 a1_table_eeg_bd
@@ -12,6 +13,9 @@ details-1
 saved-files-1
 a3_compute_latencies
 figures
+a3_p300
+a3_topo
+details-2
 Intro
 importance-of-learning
 psychological-disorders-and-learning

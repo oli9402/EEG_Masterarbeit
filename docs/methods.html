@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2023-01-02" />
+<meta name="date" content="2023-01-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -121,6 +121,11 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="1.3.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#figures"><i class="fa fa-check"></i><b>1.3.1</b> Figures</a></li>
 </ul></li>
+<li class="chapter" data-level="1.4" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_p300"><i class="fa fa-check"></i><b>1.4</b> a3_p300</a></li>
+<li class="chapter" data-level="1.5" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_topo"><i class="fa fa-check"></i><b>1.5</b> a3_topo</a>
+<ul>
+<li class="chapter" data-level="1.5.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details-2"><i class="fa fa-check"></i><b>1.5.1</b> Details</a></li>
+</ul></li>
 </ul></li>
 <li class="part"><span><b>II Part 2: Study</b></span></li>
 <li class="chapter" data-level="2" data-path="Intro.html"><a href="Intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
@@ -185,8 +190,8 @@ div.csl-indent {
 <h2><span class="header-section-number">3.1</span> Sample<a href="methods.html#sample" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Figure <a href="methods.html#fig:dias">3.1</a> Shows the subjects excluding process.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:dias"></span>
-<div id="htmlwidget-3264ace67cca6615f77d" style="width:100%;height:500px;" class="grViz html-widget "></div>
-<script type="application/json" data-for="htmlwidget-3264ace67cca6615f77d">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HBN Joelle: \n  n = 2999\"]\n  rec2 [label = \"EEG and Behavioral Data:\n  n = 2091\"]\n  rec3 [label = \"Exlclude: bad EEG (n = 224):\n  n = 1867\"]\n  rec4 [label = \"Exlclude: less than 0.5 good trials (n = 177):\n  n = 1690\"]\n  rec5 [label = \"Exlclude: no demographics (n = 91):\n  n = 1599\"]\n  rec6 [label = \"Total Sample Size n = 1599\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-5a6495091312a3e663ff" style="width:100%;height:500px;" class="grViz html-widget "></div>
+<script type="application/json" data-for="htmlwidget-5a6495091312a3e663ff">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"HBN Joelle: \n  n = 2999\"]\n  rec2 [label = \"EEG and Behavioral Data:\n  n = 2091\"]\n  rec3 [label = \"Exlclude: bad EEG (n = 224):\n  n = 1867\"]\n  rec4 [label = \"Exlclude: less than 0.5 good trials (n = 177):\n  n = 1690\"]\n  rec5 [label = \"Exlclude: no demographics (n = 91):\n  n = 1599\"]\n  rec6 [label = \"Total Sample Size n = 1599\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <p class="caption">
 Figure 3.1: Exlcuding subjects.
 </p>
@@ -203,11 +208,18 @@ Figure 3.1: Exlcuding subjects.
 Figure 3.2: Topoplot of age groups.
 </p>
 </div>
-<p>Plotting the erp of different age groups indicates that in the younger age groups it’s possible that the p300 peak measure is confounded underlying broad positivity (see <a href="methods.html#fig:erp">3.3</a>).</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:erp"></span>
-<img src="pho/topo_final.svg" alt="Topoplot of age groups." width="100%" />
+<p>Updated topoplot but not as clearly viewable maybe add less time points and/or do all ages seperatly (<a href="#topo2"><strong>??</strong></a>) ?</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:topo2"></span>
+<img src="pho/to.png" alt="Topoplot of age groups." width="100%" />
 <p class="caption">
 Figure 3.3: Topoplot of age groups.
+</p>
+</div>
+<p>Plotting the erp of different age groups indicates that in the younger age groups it’s possible that the p300 peak measure is confounded underlying broad positivity (see <a href="methods.html#fig:erp">3.4</a>).</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:erp"></span>
+<img src="pho/ERPgroups.jpg" alt="ERP of age groups." width="100%" />
+<p class="caption">
+Figure 3.4: ERP of age groups.
 </p>
 </div>
 </div>

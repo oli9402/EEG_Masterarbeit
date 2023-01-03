@@ -195,3 +195,24 @@ Generally, for older age subject finding individual peaks wasn't a challenge (se
 ```{r ipold, echo=FALSE, fig.cap="Individual ERP for age 18+", fig.align = 'center'}
 knitr::include_graphics("pho/age18_latency.jpg")
 ```
+
+
+## a3_p300
+
+In this script the p300 was calculated based on time window determined by p300 peak of age group ERP (see \@ref(erp)). One problem might be that for the youngest age group the peak p300 is most likely confounded by a underlying broad positivity. 
+
+## a3_topo
+
+This script uses baseline corrected data to create topoplots (see \@ref(fig:topo) and \@ref(fig:topon)). Secondly, a third table was created with the important channels averaged together. This third table will be used for plotting ERP. 
+
+### Details
+
+One problem which occurred is that: 
+
+**full_tab_topo** has the same amount of subjects (i.e., n = 1599) but **2'367 trials less**
+
+* full_tab = 60'561
+* full_tab_topo = 58'194
+* full_tab_baseline = 57'841 (- 2'720)
+
+*the reason should be somewhere in [a1_table_EEG_BD]*  

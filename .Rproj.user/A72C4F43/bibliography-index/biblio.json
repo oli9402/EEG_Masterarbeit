@@ -4572,6 +4572,50 @@
             "volume": "12"
         },
         {
+            "DOI": "10.1111/j.1467-9280.1996.tb00366.x",
+            "ISSN": "0956-7976, 1467-9280",
+            "URL": "http://journals.sagepub.com/doi/10.1111/j.1467-9280.1996.tb00366.x",
+            "abstract": "Processing speed, working memory capacity, and fluid intelligence were assessed in a large sample (N = 214) of children, adolescents, and young adults (ages 7 to 19 years) Results of path analyses revealed that almost half of the age-related increase in fluid intelligence was mediated by developmental changes in processing speed and working memory and nearly three fourths of the improvement in working memory was mediated by developmental changes in processing speed Moreover, even when age-related differences in speed, working memory and fluid intelligence were statistically controlled, individual differences in speed had a direct effect on working memory capacity which, in turn was a direct determinant of individual differences in fluid intelligence",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "annote": "⭐",
+            "author": [
+                {
+                    "family": "Fry",
+                    "given": "Astrid F."
+                },
+                {
+                    "family": "Hale",
+                    "given": "Sandra"
+                }
+            ],
+            "container-title": "Psychological Science",
+            "container-title-short": "Psychol Sci",
+            "id": "fryProcessingSpeedWorking1996",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1996,
+                        7
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "237-241",
+            "title": "Processing Speed, Working Memory, and Fluid Intelligence: Evidence for a Developmental Cascade",
+            "title-short": "Processing Speed, Working Memory, and Fluid Intelligence",
+            "type": "article-journal",
+            "volume": "7"
+        },
+        {
             "DOI": "10.1111/j.1469-7610.2004.00241.x",
             "ISSN": "1469-7610",
             "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-7610.2004.00241.x",
@@ -5162,6 +5206,7 @@
                     ]
                 ]
             },
+            "annote": "⭐",
             "author": [
                 {
                     "family": "Grahek",
@@ -5190,7 +5235,6 @@
                 ]
             },
             "page": "803-815",
-            "publisher": "SAGE Publications Inc",
             "title": "Anatomy of a Psychological Theory: Integrating Construct-Validation and Computational-Modeling Methods to Advance Theorizing",
             "title-short": "Anatomy of a Psychological Theory",
             "type": "article-journal",
@@ -12520,6 +12564,7 @@
                     ]
                 ]
             },
+            "annote": "🟡",
             "author": [
                 {
                     "family": "Roefs",
@@ -13291,6 +13336,50 @@
             "title-short": "Individual Differences in Cortical Processing Speed Predict Cognitive Abilities",
             "type": "article-journal",
             "volume": "2"
+        },
+        {
+            "DOI": "10.1177/0963721419896365",
+            "ISSN": "0963-7214, 1467-8721",
+            "URL": "http://journals.sagepub.com/doi/10.1177/0963721419896365",
+            "abstract": "More intelligent individuals typically show faster reaction times. However, individual differences in reaction times do not represent individual differences in a single cognitive process but in multiple cognitive processes. Thus, it is unclear whether the association between mental speed and intelligence reflects advantages in a specific cognitive process or in general processing speed. In this article, we present a neurocognitive-psychometrics account of mental speed that decomposes the relationship between mental speed and intelligence. We summarize research employing mathematical models of cognition and chronometric analyses of neural processing to identify distinct stages of information processing strongly related to intelligence differences. Evidence from both approaches suggests that the speed of higher-order processing is greater in smarter individuals, which may reflect advantages in the structural and functional organization of brain networks. Adopting a similar neurocognitive-psychometrics approach for other cognitive processes associated with intelligence (e.g., working memory or executive control) may refine our understanding of the basic cognitive processes of intelligence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        2
+                    ]
+                ]
+            },
+            "annote": "🟢⭐",
+            "author": [
+                {
+                    "family": "Schubert",
+                    "given": "Anna-Lena"
+                },
+                {
+                    "family": "Frischkorn",
+                    "given": "Gidon T."
+                }
+            ],
+            "container-title": "Current Directions in Psychological Science",
+            "container-title-short": "Curr Dir Psychol Sci",
+            "id": "schubertNeurocognitivePsychometricsIntelligence2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        4
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "140-146",
+            "title": "Neurocognitive Psychometrics of Intelligence: How Measurement Advancements Unveiled the Role of Mental Speed in Intelligence Differences",
+            "title-short": "Neurocognitive Psychometrics of Intelligence",
+            "type": "article-journal",
+            "volume": "29"
         },
         {
             "URL": "https://github.com/schwartenbeckph",
@@ -15972,6 +16061,57 @@
             "type": "book"
         },
         {
+            "DOI": "10.1093/cercor/bhv050",
+            "ISSN": "1047-3211, 1460-2199",
+            "URL": "https://academic.oup.com/cercor/article-lookup/doi/10.1093/cercor/bhv050",
+            "abstract": "The goal of this fMRI study was to examine how well developmental improvements in reasoning ability can be explained by changes in functional connectivity between specific nodes in prefrontal and parietal cortices. To this end, we examined connectivity within the lateral fronto-parietal network (LFPN) and its relation to reasoning ability in 132 children and adolescents aged 6–18 years, 56 of whom were scanned twice over the course of 1.5 years. Developmental changes in strength of connections within the LFPN were most prominent in late childhood and early adolescence. Reasoning ability was related to functional connectivity between left rostrolateral prefrontal cortex (RLPFC) and inferior parietal lobule (IPL), but only among 12–18-year olds. For 9–11-year olds, reasoning ability was most strongly related to connectivity between left and right RLPFC; this relationship was mediated by working memory. For 6–8-year olds, significant relationships between connectivity and performance were not observed; in this group, processing speed was the primary mediator of improvement in reasoning ability. We conclude that different connections best support reasoning at different points in development and that RLPFC-IPL connectivity becomes an important predictor of reasoning during adolescence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "annote": "⭐",
+            "author": [
+                {
+                    "family": "Wendelken",
+                    "given": "Carter"
+                },
+                {
+                    "family": "Ferrer",
+                    "given": "Emilio"
+                },
+                {
+                    "family": "Whitaker",
+                    "given": "Kirstie J."
+                },
+                {
+                    "family": "Bunge",
+                    "given": "Silvia A."
+                }
+            ],
+            "container-title": "Cerebral Cortex",
+            "container-title-short": "Cereb. Cortex",
+            "id": "wendelkenFrontoParietalNetworkReconfiguration2016",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "2178-2190",
+            "title": "Fronto-Parietal Network Reconfiguration Supports the Development of Reasoning Ability",
+            "type": "article-journal",
+            "volume": "26"
+        },
+        {
             "DOI": "10.1371/journal.pone.0152719",
             "ISSN": "1932-6203",
             "URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0152719",
@@ -17693,9 +17833,5 @@
             "type": "book"
         }
     ],
-    "project_biblios": [
-        "zotero.bib",
-        "book.bib",
-        "packages.bib"
-    ]
+    "project_biblios": []
 }
