@@ -101,6 +101,7 @@ div.csl-indent {
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>About</a>
 <ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#todo"><i class="fa fa-check"></i>Todo</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#fragen-an-dawid"><i class="fa fa-check"></i>Fragen an Dawid</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#new-stuff-orientation"><i class="fa fa-check"></i>New stuff: orientation</a></li>
 </ul></li>
 <li class="part"><span><b>I Part 1: Matlab</b></span></li>
@@ -117,15 +118,16 @@ div.csl-indent {
 <li class="chapter" data-level="1.2.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details-1"><i class="fa fa-check"></i><b>1.2.1</b> Details</a></li>
 <li class="chapter" data-level="1.2.2" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#saved-files-1"><i class="fa fa-check"></i><b>1.2.2</b> Saved Files</a></li>
 </ul></li>
-<li class="chapter" data-level="1.3" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_compute_latencies"><i class="fa fa-check"></i><b>1.3</b> a3_compute_latencies</a>
+<li class="chapter" data-level="1.3" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a2_1_exlcude"><i class="fa fa-check"></i><b>1.3</b> a2_1_exlcude</a></li>
+<li class="chapter" data-level="1.4" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_1_topo"><i class="fa fa-check"></i><b>1.4</b> a3_1_topo</a>
 <ul>
-<li class="chapter" data-level="1.3.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#figures"><i class="fa fa-check"></i><b>1.3.1</b> Figures</a></li>
+<li class="chapter" data-level="1.4.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details-2"><i class="fa fa-check"></i><b>1.4.1</b> Details</a></li>
 </ul></li>
-<li class="chapter" data-level="1.4" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_p300"><i class="fa fa-check"></i><b>1.4</b> a3_p300</a></li>
-<li class="chapter" data-level="1.5" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_topo"><i class="fa fa-check"></i><b>1.5</b> a3_topo</a>
+<li class="chapter" data-level="1.5" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_compute_latencies"><i class="fa fa-check"></i><b>1.5</b> a3_compute_latencies</a>
 <ul>
-<li class="chapter" data-level="1.5.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#details-2"><i class="fa fa-check"></i><b>1.5.1</b> Details</a></li>
+<li class="chapter" data-level="1.5.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#figures"><i class="fa fa-check"></i><b>1.5.1</b> Figures</a></li>
 </ul></li>
+<li class="chapter" data-level="1.6" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_p300"><i class="fa fa-check"></i><b>1.6</b> a3_p300</a></li>
 </ul></li>
 <li class="part"><span><b>II Part 2: Study</b></span></li>
 <li class="chapter" data-level="2" data-path="Intro.html"><a href="Intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
@@ -188,18 +190,6 @@ div.csl-indent {
 <h1><span class="header-section-number">Chapter 1</span> Documentation of Scripts<a href="documentation-of-scripts.html#documentation-of-scripts" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="todo-1" class="section level2 unnumbered hasAnchor">
 <h2>Todo<a href="documentation-of-scripts.html#todo-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>Plots with font size 20</li>
-<li>KI, LI in full_tab</li>
-<li>transfer data and scripts to dynage cloud (better for dawid)?</li>
-<li>topoplot with data from new compiled table (dawid), should be the same</li>
-<li>In total three tables:
-<ul>
-<li>full_tab with one erp / trial + <strong>no</strong> baseline correction (multilevel)</li>
-<li>table for topoplot: 105 electrodes for every trial (topoplot)</li>
-<li>table one erp /trial <strong>with</strong> baseline correction (for plots)</li>
-</ul></li>
-</ul>
 </div>
 <div id="a1_table_eeg_bd" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> a1_table_EEG_BD<a href="documentation-of-scripts.html#a1_table_eeg_bd" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -224,7 +214,6 @@ div.csl-indent {
 <blockquote>
 <pre><code>trigger = [11,12,13,14,15,16,17,18];</code></pre>
 </blockquote>
-<p><span style="color: red;">TODO:</span> do younger subjects with less stimuli have same trigger numbers? Look up do all have 8 sequence?</p>
 <p>Categories are created: UN, NL, K, F</p>
 <p>Accuracy is created: 0/1 (correct/false)</p>
 <p>Distance from newly learned is created</p>
@@ -289,9 +278,11 @@ reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
 <li>Comorbitity</li>
 <li>Gender</li>
 <li>Age</li>
-<li>No behavioral/demo data</li>
+<li>Agegroup</li>
+<li>Index for No behavioral/demo data</li>
 </ul>
-<p>Furthermore, in this script explores how many subject out of full_tab will be excluded because of too many bad trials (reject file, see <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a>)</p>
+<p>The age groups are created with bins of two years up to 19 years. All subjects older than 19 form one group.
+Furthermore, in this script explores how many subject out of full_tab will be excluded because of too many bad trials (reject file, see <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a>)</p>
 <div id="details-1" class="section level3 hasAnchor" number="1.2.1">
 <h3><span class="header-section-number">1.2.1</span> Details<a href="documentation-of-scripts.html#details-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <table>
@@ -366,12 +357,32 @@ reject{3, index} = length(ind);% wie viele trials pro person</code></pre>
 </blockquote>
 </div>
 </div>
-<div id="a3_compute_latencies" class="section level2 hasAnchor" number="1.3">
-<h2><span class="header-section-number">1.3</span> a3_compute_latencies<a href="documentation-of-scripts.html#a3_compute_latencies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="a2_1_exlcude" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> a2_1_exlcude<a href="documentation-of-scripts.html#a2_1_exlcude" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this script subjects are excluded using indexes. Exclusion criteria are in <a href="methods.html#fig:dias">3.1</a>.</p>
+</div>
+<div id="a3_1_topo" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> a3_1_topo<a href="documentation-of-scripts.html#a3_1_topo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This script uses baseline corrected data to create topoplots (see <a href="methods.html#fig:topo">3.2</a> and <a href="#fig:topon"><strong>??</strong></a>). Secondly, a third table was created with the important channels averaged together. This third table will be used for plotting ERP.</p>
+<div id="details-2" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> Details<a href="documentation-of-scripts.html#details-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Subjects not found in full_tab from [a2_1_exclude] were excluded from the topoplot file. Age group was created.
+One problem which occurred is that:</p>
+<p><strong>full_tab_topo</strong> has the same amount of subjects (i.e., n = 1599) but <strong>2’367 trials less</strong></p>
+<ul>
+<li>full_tab = 60’561</li>
+<li>full_tab_topo = 58’194</li>
+<li>full_tab_baseline = 57’841 (- 2’720)</li>
+</ul>
+<p><em>the reason should be somewhere in <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a></em></p>
+</div>
+</div>
+<div id="a3_compute_latencies" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> a3_compute_latencies<a href="documentation-of-scripts.html#a3_compute_latencies" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>This script aims at computing p300 peak for individuals without forming a group.Using a method described in <span class="citation">(<a href="#ref-liesefeldEstimatingTimingCognitive2018" role="doc-biblioref">Liesefeld 2018</a>)</span>, the data set presented a challenge in computing individual p300 peaks. Especially, finding the offset value seemed to be the problem, since many subject had a broad positive deflection at the end of an erp. Using a time window of 300-600 ms post stimulus and increasing percAmp from 0.6 to 0.8 led to warning for 14 subjects. Still, having a percAmp of 0.8 may be too high.
 Therefore, processing from here p300 peak is calculated base one a time window calcuted from group erp see <a href="methods.html#time-window-electrodes">Time Window, Electrodes</a>.</p>
-<div id="figures" class="section level3 hasAnchor" number="1.3.1">
-<h3><span class="header-section-number">1.3.1</span> Figures<a href="documentation-of-scripts.html#figures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="figures" class="section level3 hasAnchor" number="1.5.1">
+<h3><span class="header-section-number">1.5.1</span> Figures<a href="documentation-of-scripts.html#figures" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The following figure <a href="documentation-of-scripts.html#fig:ip">1.1</a> shows the individual ERP of subjects between age 5 to 7 with an percAmp of 0.6. To make it more visable only a subset of subjects out of that age group were plotted. For example, finding an offset for subject 19 was problematic.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:ip"></span>
 <img src="pho/alter57_latency.jpg" alt="Individual ERP for age 5 to 7 years" width="864" />
@@ -388,24 +399,10 @@ Figure 1.2: Individual ERP for age 18+
 </div>
 </div>
 </div>
-<div id="a3_p300" class="section level2 hasAnchor" number="1.4">
-<h2><span class="header-section-number">1.4</span> a3_p300<a href="documentation-of-scripts.html#a3_p300" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="a3_p300" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> a3_p300<a href="documentation-of-scripts.html#a3_p300" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>In this script the p300 was calculated based on time window determined by p300 peak of age group ERP (see <a href="#erp"><strong>??</strong></a>). One problem might be that for the youngest age group the peak p300 is most likely confounded by a underlying broad positivity.</p>
-</div>
-<div id="a3_topo" class="section level2 hasAnchor" number="1.5">
-<h2><span class="header-section-number">1.5</span> a3_topo<a href="documentation-of-scripts.html#a3_topo" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This script uses baseline corrected data to create topoplots (see <a href="#topo"><strong>??</strong></a> and <a href="#topo2"><strong>??</strong></a>). Secondly, a third table was created with the important channels averaged together. This third table will be used for plotting ERP.</p>
-<div id="details-2" class="section level3 hasAnchor" number="1.5.1">
-<h3><span class="header-section-number">1.5.1</span> Details<a href="documentation-of-scripts.html#details-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>One problem which occurred is that:</p>
-<p><strong>full_tab_topo</strong> has the same amount of subjects (i.e., n = 1599) but <strong>2’367 trials less</strong></p>
-<ul>
-<li>full_tab = 60’561</li>
-<li>full_tab_topo = 58’194</li>
-</ul>
-<p><em>the reason should be somewhere in <a href="documentation-of-scripts.html#a1_table_eeg_bd">a1_table_EEG_BD</a></em></p>
 
-</div>
 </div>
 </div>
 
