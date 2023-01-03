@@ -28,7 +28,7 @@ This file is a documentation of my master thesis:
 
 | What              | Chapter |
 |:------------|:------------|
-| Triggers differ between age? | a1_table script        |
+| Plots with baseline correct |        |
 
 ## New stuff: orientation {-}
 
