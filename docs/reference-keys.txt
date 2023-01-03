@@ -4,6 +4,7 @@ fig:dias
 fig:topo
 fig:topo-n
 fig:erp
+fig:raincloud
 documentation-of-scripts
 a1_table_eeg_bd
 details
@@ -37,6 +38,8 @@ time-window-electrodes
 mixed-models
 clusteranalyse
 Results
+behavioral-data
+knowledge-index-and-learning-index
 Disscusion
 Limitations
 Further
