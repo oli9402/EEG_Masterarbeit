@@ -32,6 +32,12 @@ DiagrammeR::grViz("digraph {
 ```
 
 
+## Diagnosis 
+
+
+```{r dia, echo=FALSE, out.width="70%", fig.cap="Diagnosis.", fig.align = 'center'}
+knitr::include_graphics("pho/Diagnosis.jpg")
+```
 
 ## EEG and Age Groups 
 
