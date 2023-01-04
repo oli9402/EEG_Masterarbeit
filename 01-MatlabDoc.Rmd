@@ -115,6 +115,7 @@ Furthermore, in this script explores how many subject out of full_tab will be ex
 |< 75% good trials |    1003    |
 |< 50% good trials |   350   |
 |< 50% good trials & in full_tab| 249| 
+| Sequence Length == 7 | 546 | 
 
 
 

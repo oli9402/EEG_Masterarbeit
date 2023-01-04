@@ -35,6 +35,7 @@ This file is a documentation of my master thesis:
 | What              | Chapter |
 |:------------|:------------|
 | p300 peak ist eher BP? |  \@ref(fig:erp)      |
+|exclude: sequence length = 7 ? | \@ref(fig:exc)
 
 
 ## New stuff: orientation {-}
@@ -44,8 +45,10 @@ This file is a documentation of my master thesis:
 | Fig:Topoplot | [Time Window, Electrodes]        |\@ref(fig:topo)| 19.12.2022 |
 | Fig: ERP | [Time Window, Electrodes]        |\@ref(fig:erp)| 19.12.2022|
 | Individual Peaks | [a3_compute_latencies] |\@ref(fig:ip), \@ref(fig:ipold)| 27.12.2022| 
-| Subjects Excluded | [Sample] | \@ref(fig:dias)| 28.12.2022|
+| Subjects Excluded | [Sample] | \@ref(fig:exc)| 28.12.2022|
 |Plots| [Behavioral Data] | \@ref(fig:raincloud), \@ref(fig:ki-perf)| 4.01.2023|
+|Diagnosis| [Sample]| \@ref(fig:dia) | 4.01.2023|
+
 
 
 ```{r include=FALSE}

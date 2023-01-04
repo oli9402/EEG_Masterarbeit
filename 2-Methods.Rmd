@@ -3,9 +3,9 @@
 
 ## Sample 
 
-Figure \@ref(fig:dias) Shows the subjects excluding process.
+Figure \@ref(fig:exc) Shows the subjects excluding process.
 
-```{r dias, echo= FALSE , fig.align='center', fig.cap="Exlcuding subjects.", out.width="100%"}
+```{r exc, echo= FALSE , fig.align='center', fig.cap="Exlcuding subjects.", out.width="100%"}
 
 library(DiagrammeR)
 DiagrammeR::grViz("digraph {
@@ -22,10 +22,12 @@ DiagrammeR::grViz("digraph {
   n = 1690']
   rec5 [label = 'Exlclude: no demographics (n = 91):
   n = 1599']
-  rec6 [label = 'Total Sample Size n = 1599']
+  rec6 [label = '(Exlclude: Sequence Length = 7 (n = 546):
+  n = 1053)?']
+  rec7 [label = 'Total Sample Size n = 1599 (1053)']
   
   # edge definitions with the node IDs
-  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6
+  rec1 -> rec2 -> rec3 -> rec4 ->rec5 -> rec6 -> rec7
   }",
   height = 500)
   
