@@ -1,6 +1,7 @@
 fig:ip
 fig:ipold
-fig:dias
+fig:exc
+fig:dia
 fig:topo
 fig:topo-n
 fig:erp
@@ -35,6 +36,7 @@ hypothesis
 expolrative-goal
 methods
 sample
+diagnosis
 eeg-and-age-groups
 time-window-electrodes
 mixed-models
