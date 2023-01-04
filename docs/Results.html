@@ -23,7 +23,7 @@
 <meta name="author" content="Oliver Zingg" />
 
 
-<meta name="date" content="2023-01-03" />
+<meta name="date" content="2023-01-04" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -128,6 +128,7 @@ div.csl-indent {
 <li class="chapter" data-level="1.5.1" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#figures"><i class="fa fa-check"></i><b>1.5.1</b> Figures</a></li>
 </ul></li>
 <li class="chapter" data-level="1.6" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a3_p300"><i class="fa fa-check"></i><b>1.6</b> a3_p300</a></li>
+<li class="chapter" data-level="1.7" data-path="documentation-of-scripts.html"><a href="documentation-of-scripts.html#a4_plots"><i class="fa fa-check"></i><b>1.7</b> a4_plots</a></li>
 </ul></li>
 <li class="part"><span><b>II Part 2: Study</b></span></li>
 <li class="chapter" data-level="2" data-path="Intro.html"><a href="Intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
@@ -200,12 +201,29 @@ div.csl-indent {
 <h3><span class="header-section-number">4.1.1</span> Knowledge Index and Learning Index<a href="Results.html#knowledge-index-and-learning-index" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>In figure <a href="Results.html#fig:raincloud">4.1</a> we see the average of the Learning Rate and Knowledge Rate across all subjects.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:raincloud"></span>
-<img src="pho/rcKI_LI.jpg" alt="Knowledge Index and Learning Rate." width="70%" />
+<img src="pho/rcKI_LI.jpg" alt="Knowledge Index and Learning Rate." width="100%" />
 <p class="caption">
 Figure 4.1: Knowledge Index and Learning Rate.
 </p>
 </div>
+<div id="do-subjects-learn" class="section level4 hasAnchor" number="4.1.1.1">
+<h4><span class="header-section-number">4.1.1.1</span> Do Subjects Learn?<a href="Results.html#do-subjects-learn" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>The average knowledge Index across subjects doesn’t seem to increase greatly. To further explore the learning performance, the subjects were formed into four groups based on their mean knowledge index across blocks:</p>
+<ul>
+<li><strong>Group 1</strong>: mean(KI) &lt;= 0.25</li>
+<li><strong>Group 2</strong>: 0.25 &lt; mean(KI) &lt;= 0.50</li>
+<li><strong>Group 3</strong>: 0.50 &lt; mean(KI) &lt;= 0.75</li>
+<li><strong>Group 4</strong>: 0.75 &lt; mean(KI)</li>
+</ul>
+<p>Figure <a href="Results.html#fig:ki-perf">4.2</a> shows the knowledge index trajectory of different performers and with their standard deviation. Lower performer don’t seem to increase performance (i.e. knowledge index) in most age groups. Knowledge index was calculated without an added weight as described in <a href="documentation-of-scripts.html#a2_add_demo">a2_add_demo</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ki-perf"></span>
+<img src="pho/KI_by_performer.jpg" alt="Knowledge Index of high and low performer." width="100%" />
+<p class="caption">
+Figure 4.2: Knowledge Index of high and low performer.
+</p>
+</div>
 
+</div>
 </div>
 </div>
 </div>

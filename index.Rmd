@@ -45,6 +45,7 @@ This file is a documentation of my master thesis:
 | Fig: ERP | [Time Window, Electrodes]        |\@ref(fig:erp)| 19.12.2022|
 | Individual Peaks | [a3_compute_latencies] |\@ref(fig:ip), \@ref(fig:ipold)| 27.12.2022| 
 | Subjects Excluded | [Sample] | \@ref(fig:dias)| 28.12.2022|
+|Plots| [Behavioral Data] | \@ref(fig:raincloud), \@ref(fig:ki-perf)| 4.01.2023|
 
 
 ```{r include=FALSE}

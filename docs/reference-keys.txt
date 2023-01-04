@@ -5,6 +5,7 @@ fig:topo
 fig:topo-n
 fig:erp
 fig:raincloud
+fig:ki-perf
 documentation-of-scripts
 a1_table_eeg_bd
 details
@@ -18,6 +19,7 @@ details-2
 a3_compute_latencies
 figures
 a3_p300
+a4_plots
 Intro
 importance-of-learning
 psychological-disorders-and-learning
@@ -40,6 +42,7 @@ clusteranalyse
 Results
 behavioral-data
 knowledge-index-and-learning-index
+do-subjects-learn
 Disscusion
 Limitations
 Further

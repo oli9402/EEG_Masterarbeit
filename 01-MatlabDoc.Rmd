@@ -215,3 +215,5 @@ knitr::include_graphics("pho/age18_latency.jpg")
 
 In this script the p300 was calculated based on time window determined by p300 peak of age group ERP (see \@ref(erp)). One problem might be that for the youngest age group the peak p300 is most likely confounded by a underlying broad positivity. 
 
+## a4_plots
+

@@ -2894,6 +2894,56 @@
             "volume": "40"
         },
         {
+            "DOI": "10.1207/s15326942dn3101_6",
+            "ISSN": "8756-5641, 1532-6942",
+            "URL": "http://www.leaonline.com/doi/abs/10.1207/s15326942dn3101_6",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        4
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Conklin",
+                    "given": "Heather M."
+                },
+                {
+                    "family": "Luciana",
+                    "given": "Monica"
+                },
+                {
+                    "family": "Hooper",
+                    "given": "Catalina J."
+                },
+                {
+                    "family": "Yarger",
+                    "given": "Rebecca S."
+                }
+            ],
+            "container-title": "Developmental Neuropsychology",
+            "container-title-short": "Developmental Neuropsychology",
+            "id": "conklinWorkingMemoryPerformance2007",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "103-128",
+            "title": "Working Memory Performance in Typically Developing Children and Adolescents: Behavioral Evidence of Protracted Frontal Lobe Development",
+            "title-short": "Working Memory Performance in Typically Developing Children and Adolescents",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
             "URL": "https://www.sciencedirect.com/science/article/abs/pii/S2212144712000087",
             "accessed": {
                 "date-parts": [
@@ -4034,6 +4084,92 @@
             "volume": "30"
         },
         {
+            "DOI": "10.1016/j.intell.2021.101569",
+            "ISSN": "0160-2896",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0160289621000532",
+            "abstract": "EEG studies represent an important sub-discipline in the field of intelligence research and have significant potential to advance the theoretical understanding and practical applications of the construct. This commentary reviews key themes and major developments in the field from the last several decades, and outlines open questions and future directions for the next phase of research. Two main areas of progress in recent years relate to (1) improvements in study design and psychometric approaches, and (2) increased integration with cognitive psychology and neuroscience. In turn, these advances have clarified several themes and pressing issues. These include: The need to establish the replicability and effect sizes of key effects, the need to explicitly attend to the distinction between trait- and task-related sources of variance in correlations between intelligence and EEG variables, the need to systematically identify and test moderators of those relationships, the need for greater use of formal modeling at the level of measurement and theory, and the need for continued integration of theoretical advances from related disciplines. We argue that an increased focus on these issues can yield rapid progress in this area over the coming years. The commentary concludes with suggestions for both immediate priorities and long-term directions in basic and applied EEG research on intelligence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Euler",
+                    "given": "Matthew J."
+                },
+                {
+                    "family": "Schubert",
+                    "given": "Anna-Lena"
+                }
+            ],
+            "container-title": "Intelligence",
+            "container-title-short": "Intelligence",
+            "id": "eulerRecentDevelopmentsCurrent2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Cognitive abilities,EEG,Event-related potential,Intelligence,Time-frequency analysis",
+            "language": "en-US",
+            "page": "101569",
+            "title": "Recent Developments, Current Challenges, and Future Directions in Electrophysiological Approaches to Studying Intelligence",
+            "type": "article-journal",
+            "volume": "88"
+        },
+        {
+            "DOI": "10.1016/j.intell.2021.101569",
+            "ISSN": "0160-2896",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0160289621000532",
+            "abstract": "EEG studies represent an important sub-discipline in the field of intelligence research and have significant potential to advance the theoretical understanding and practical applications of the construct. This commentary reviews key themes and major developments in the field from the last several decades, and outlines open questions and future directions for the next phase of research. Two main areas of progress in recent years relate to (1) improvements in study design and psychometric approaches, and (2) increased integration with cognitive psychology and neuroscience. In turn, these advances have clarified several themes and pressing issues. These include: The need to establish the replicability and effect sizes of key effects, the need to explicitly attend to the distinction between trait- and task-related sources of variance in correlations between intelligence and EEG variables, the need to systematically identify and test moderators of those relationships, the need for greater use of formal modeling at the level of measurement and theory, and the need for continued integration of theoretical advances from related disciplines. We argue that an increased focus on these issues can yield rapid progress in this area over the coming years. The commentary concludes with suggestions for both immediate priorities and long-term directions in basic and applied EEG research on intelligence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Euler",
+                    "given": "Matthew J."
+                },
+                {
+                    "family": "Schubert",
+                    "given": "Anna-Lena"
+                }
+            ],
+            "container-title": "Intelligence",
+            "container-title-short": "Intelligence",
+            "id": "eulerRecentDevelopmentsCurrent2021a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Cognitive abilities,EEG,Event-related potential,Intelligence,Time-frequency analysis",
+            "language": "en-US",
+            "page": "101569",
+            "title": "Recent Developments, Current Challenges, and Future Directions in Electrophysiological Approaches to Studying Intelligence",
+            "type": "article-journal",
+            "volume": "88"
+        },
+        {
             "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/acer.13431?casa_token=NyHjbDaK5UwAAAAA%3A3J3qofqHCrGay3KRoBI_gdQrfWN9towaKqCoQq5HjFMBvobzks0CEre_C0Di0FkPvFjq-grymX-cQos",
             "accessed": {
                 "date-parts": [
@@ -4530,6 +4666,54 @@
             "title": "Intelligence Test Items Varying in Capacity Demands Cannot Be Used to Test the Causality of Working Memory Capacity for Fluid Intelligence",
             "type": "article-journal",
             "volume": "28"
+        },
+        {
+            "DOI": "10.1016/j.intell.2022.101681",
+            "ISSN": "0160-2896",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0160289622000629",
+            "abstract": "Despite over a century of research on intelligence, the cognitive processes underlying intelligent behavior are still unclear. In this review, we summarize empirical results investigating the contribution of cognitive processes associated with working memory capacity, processing speed, and executive processes to intelligence differences. Specifically, we (a) evaluate how cognitive processes associated with the three different cognitive domains have been measured, and (b) how these processes are related to individual differences in intelligence. Consistently, this review illustrates that isolating single cognitive processes using average performance in cognitive tasks is hardly possible. Instead, formal models that implement theories of cognitive processes underlying performance in different cognitive tasks may provide more adequate indicators of single cognitive processes. Therefore, we outlined which models for working memory capacity, processing speed, and executive processes may provide more specific insights into cognitive processes associated with individual differences in intelligence. Finally, we discuss implications of a process-oriented intelligence research using cognitive measurement models for psychometric theories of intelligence and argue that a model-based approach might overcome validity problems of traditional intelligence theories.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Frischkorn",
+                    "given": "Gidon T."
+                },
+                {
+                    "family": "Wilhelm",
+                    "given": "Oliver"
+                },
+                {
+                    "family": "Oberauer",
+                    "given": "Klaus"
+                }
+            ],
+            "container-title": "Intelligence",
+            "container-title-short": "Intelligence",
+            "id": "frischkornProcessorientedIntelligenceResearch2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Cognitive processes,Intelligence,Measurement,Review",
+            "language": "en-US",
+            "page": "101681",
+            "title": "Process-Oriented Intelligence Research: A Review from the Cognitive Perspective",
+            "title-short": "Process-Oriented Intelligence Research",
+            "type": "article-journal",
+            "volume": "94"
         },
         {
             "ISSN": "1662-453X",
@@ -6928,6 +7112,48 @@
             "volume": "103"
         },
         {
+            "DOI": "10.5334/joc.158",
+            "ISSN": "2514-4820",
+            "PMCID": "PMC8086728",
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8086728/",
+            "abstract": "The speed of short-term memory scanning is thought to be captured in the slope of the linear function of mean reaction times (RTs) regressed on set size in the Sternberg memory scanning task (SMST). Individual differences in the slope parameter have been hypothesized to correlate with general intelligence (g). However, this correlation can usually not be found. This present study chose a fixed-links model (FLM) approach to re-evaluate the RT slope parameter on a latent level in a sample of 102 participants aged 18 to 61 years who completed the SMST with set sizes 1, 3, and 5. The same was tried for P3 latencies to investigate whether or not both parameters measure the same cognitive processes in the SMST, and to assess the usability of both slopes to predict g. For RTs, a linear increase with set size was found. The slope of mean RTs correlated with g on a manifest level already. The FLM approach could better reveal this relationship with the correlation between the slope and g being substantially higher. For P3 latencies, we found no evidence for a linear increase, but a general increase from the smallest set size to the two larger ones. This indicates that RTs and P3 latencies do not measure the same cognitive processes in the SMST. The FLM proved suitable to investigate the association between the speed of short-term memory scanning and intelligence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Jungeblut",
+                    "given": "Henrike M."
+                },
+                {
+                    "family": "Hagemann",
+                    "given": "Dirk"
+                },
+                {
+                    "family": "Löffler",
+                    "given": "Christoph"
+                },
+                {
+                    "family": "Schubert",
+                    "given": "Anna-Lena"
+                }
+            ],
+            "container-title": "Journal of Cognition",
+            "container-title-short": "J Cogn",
+            "id": "jungeblutInvestigationSlopeParameters",
+            "issue": "1",
+            "page": "26",
+            "title": "An Investigation of the Slope Parameters of Reaction Times and P3 Latencies in the Sternberg Memory Scanning Task – A Fixed-Links Model Approach",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
             "DOI": "10.1038/s41562-017-0234-y",
             "ISSN": "2397-3374",
             "URL": "http://www.nature.com/articles/s41562-017-0234-y",
@@ -8171,6 +8397,52 @@
             "title-short": "P300 Amplitude Variations, Prior Probabilities, and Likelihoods",
             "type": "article-journal",
             "volume": "16"
+        },
+        {
+            "DOI": "10.1207/S15326942DN2001_2",
+            "ISSN": "8756-5641, 1532-6942",
+            "URL": "https://www.tandfonline.com/doi/full/10.1207/S15326942DN2001_2",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Korkman",
+                    "given": "Marit"
+                },
+                {
+                    "family": "Kemp",
+                    "given": "Sarah L."
+                },
+                {
+                    "family": "Kirk",
+                    "given": "Ursula"
+                }
+            ],
+            "container-title": "Developmental Neuropsychology",
+            "container-title-short": "Developmental Neuropsychology",
+            "id": "korkmanEffectsAgeNeurocognitive2001",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        8
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "331-354",
+            "title": "Effects of Age on Neurocognitive Measures of Children Ages 5 to 12: A Cross-Sectional Study on 800 Children From the United States",
+            "title-short": "Effects of Age on Neurocognitive Measures of Children Ages 5 to 12",
+            "type": "article-journal",
+            "volume": "20"
         },
         {
             "ISSN": "1662-453X",
@@ -12771,6 +13043,53 @@
             "type": "webpage"
         },
         {
+            "DOI": "10.1007/s00787-020-01639-9",
+            "ISSN": "1435-165X",
+            "URL": "https://doi.org/10.1007/s00787-020-01639-9",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Rommelse",
+                    "given": "Nanda"
+                },
+                {
+                    "family": "Luman",
+                    "given": "Marjolein"
+                },
+                {
+                    "family": "Kievit",
+                    "given": "Rogier"
+                }
+            ],
+            "container-title": "European Child & Adolescent Psychiatry",
+            "container-title-short": "Eur Child Adolesc Psychiatry",
+            "id": "rommelseSlowProcessingSpeed2020",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        10,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "1325-1327",
+            "title": "Slow Processing Speed: A Cross-Disorder Phenomenon with Significant Clinical Value, and in Need of Further Methodological Scrutiny",
+            "title-short": "Slow Processing Speed",
+            "type": "article-journal",
+            "volume": "29"
+        },
+        {
             "DOI": "10.1038/s41386-021-01015-4",
             "ISSN": "1740-634X",
             "URL": "https://www.nature.com/articles/s41386-021-01015-4",
@@ -14273,6 +14592,42 @@
             "volume": "67"
         },
         {
+            "ISSN": "1664-0640",
+            "URL": "https://www.frontiersin.org/articles/10.3389/fpsyt.2021.627179",
+            "abstract": "There is substantial interest in identifying biobehavioral dimensions of individual variation that cut across heterogenous disorder categories, and computational models can play a major role in advancing this goal. In this report, we focused on efficiency of evidence accumulation (EEA), a computationally characterized variable derived from sequential sampling models of choice tasks. We created an EEA factor from three behavioral tasks in the UCLA Phenomics dataset (n = 272), which includes healthy participants (n = 130) as well-participants with schizophrenia (n = 50), bipolar disorder (n = 49), and attention-deficit/hyperactivity disorder (n = 43). We found that the EEA factor was significantly reduced in all three disorders, and that it correlated with an overall severity score for psychopathology as well as self-report measures of impulsivity. Although EEA was significantly correlated with general intelligence, it remained associated with psychopathology and symptom scales even after controlling for intelligence scores. Taken together, these findings suggest EEA is a promising computationally-characterized dimension of neurocognitive variation, with diminished EEA conferring transdiagnostic vulnerability to psychopathology.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sripada",
+                    "given": "Chandra"
+                },
+                {
+                    "family": "Weigard",
+                    "given": "Alexander"
+                }
+            ],
+            "container-title": "Frontiers in Psychiatry",
+            "id": "sripadaImpairedEvidenceAccumulation2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "title": "Impaired Evidence Accumulation as a Transdiagnostic Vulnerability Factor in Psychopathology",
+            "type": "article-journal",
+            "volume": "12"
+        },
+        {
             "DOI": "10.1016/j.tics.2019.09.011",
             "ISSN": "1364-6613",
             "URL": "https://www.sciencedirect.com/science/article/pii/S1364661319302359",
@@ -15514,6 +15869,48 @@
             "title": "Theory Development Requires an Epistemological Sea Change",
             "type": "article-journal",
             "volume": "31"
+        },
+        {
+            "DOI": "10.1162/jocn_a_01168",
+            "ISSN": "0898-929X, 1530-8898",
+            "URL": "https://direct.mit.edu/jocn/article/29/11/1932/28727/Using-Event-related-Potentials-to-Inform-the",
+            "abstract": "Abstract To build a general knowledge base, it is imperative that individuals acquire, integrate, and further extend knowledge across experiences. For instance, in one episode an individual may learn that George Washington was the first president. In a separate episode they may then learn that Washington was the commander of the Continental Army. Integration of the information in memory may then support self-derivation of the new knowledge that the leader of the Continental Army was also the first president. Despite a considerable amount of fMRI research aimed at further elucidating the neuroanatomical regions supporting this ability, a consensus has yet to be reached with regards to the precise neurocognitive processes involved. In the present research, we capitalized on the high temporal resolution of event-related potentials (ERPs) to inform the time course of processes elicited during successful integration and further extension of new factual knowledge. Adults read novel, related stem facts and were tested for self-derivation of novel integration facts while ERPs were recorded. Consistent with current theoretical models, memory integration was first triggered by novelty detection within 400 msec of experience of a second, related stem fact. Two additional temporally staged encoding processes were then observed interpreted to reflect (1) explicit meaning comprehension and (2) representation of the integrated relation in memory. During the test for self-derivation, a single ERP was elicited, which presumably reflected retrieval and/or recombination of previously integrated knowledge. Together, the present research provides important insight into the time course of neurocognitive processing associated with the formation of a knowledge base.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        4
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Varga",
+                    "given": "Nicole L."
+                },
+                {
+                    "family": "Bauer",
+                    "given": "Patricia J."
+                }
+            ],
+            "container-title": "Journal of Cognitive Neuroscience",
+            "id": "vargaUsingEventrelatedPotentials2017",
+            "issue": "11",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        11,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "1932-1949",
+            "title": "Using Event-related Potentials to Inform the Neurocognitive Processes Underlying Knowledge Extension through Memory Integration",
+            "type": "article-journal",
+            "volume": "29"
         },
         {
             "DOI": "10.1186/1471-2105-7-91",
@@ -17320,6 +17717,52 @@
             "title-short": "Beyond t Test and ANOVA",
             "type": "article-journal",
             "volume": "110"
+        },
+        {
+            "DOI": "10.1007/s10803-022-05736-3",
+            "ISSN": "1573-3432",
+            "URL": "https://doi.org/10.1007/s10803-022-05736-3",
+            "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental condition affecting information processing across domains. The current meta-analysis investigated whether slower processing speed is associated with the ASD neurocognitive profile and whether findings hold across different time-based tasks and stimuli (social vs. nonsocial; linguistic vs. nonlinguistic). Mean RTs of ASD and age-matched neurotypical comparison groups (N = 893 ASD, 1063 neurotypical; mean age ASD group = 17 years) were compared across simple RT, choice RT, and interference control tasks (44 studies, 106 effects) using robust variance estimation meta-analysis. Simple RT tasks required participants to respond to individual stimuli, whereas choice RT tasks required forced-choice responses to two or more stimuli. Interference control tasks required a decision in the context of a distractor or priming stimulus; in an effort to minimize inhibitory demands, we extracted RTs only from baseline and congruent conditions of such tasks. All tasks required nonverbal (motor) responses. The overall effect-size estimate indicated significantly longer mean RTs in ASD groups (g = .35, 95% CI = .16; .54) than comparison groups. Task type moderated effects, with larger estimates drawn from simple RT tasks than interference control tasks. However, across all three task types, ASD groups exhibited significantly longer mean RTs than comparison groups. Stimulus type and age did not moderate effects. Generalized slowing may be a domain-general characteristic of ASD with potential consequences for social, language, and motor development. Assessing processing speed may inform development of interventions to support autistic individuals and their diverse cognitive profiles.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Zapparrata",
+                    "given": "Nicole M."
+                },
+                {
+                    "family": "Brooks",
+                    "given": "Patricia J."
+                },
+                {
+                    "family": "Ober",
+                    "given": "Teresa M."
+                }
+            ],
+            "container-title": "Journal of Autism and Developmental Disorders",
+            "container-title-short": "J Autism Dev Disord",
+            "id": "zapparrataSlowerProcessingSpeed2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        9,
+                        16
+                    ]
+                ]
+            },
+            "keyword": "ASD,Autism,Domain-general processes,Generalized slowing,Meta-analysis,Processing speed,Reaction time",
+            "language": "en-US",
+            "title": "Slower Processing Speed in Autism Spectrum Disorder: A Meta-analytic Investigation of Time-Based Tasks",
+            "title-short": "Slower Processing Speed in Autism Spectrum Disorder",
+            "type": "article-journal"
         },
         {
             "DOI": "10.1016/j.ypmed.2004.04.044",
