@@ -35,7 +35,7 @@ This file is a documentation of my master thesis:
 | What              | Chapter |
 |:------------|:------------|
 | p300 peak ist eher BP? |  \@ref(fig:erp)      |
-|exclude: sequence length = 7 ? | \@ref(fig:exc)
+|exclude: sequence length = 7 ? | \@ref(fig:exc)|
 
 
 ## New stuff: orientation {-}
