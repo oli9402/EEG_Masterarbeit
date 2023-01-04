@@ -9,7 +9,7 @@ pandoc_args: [ "--csl", "apa_pl.csl" ]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  Masterarbeit am Lehrstuhl Methoden der Plastizitä an der Universität Zürich
+  Masterarbeit am Lehrstuhl Methoden der Plastizität an der Universität Zürich
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
