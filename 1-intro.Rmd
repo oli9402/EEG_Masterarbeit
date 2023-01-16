@@ -9,9 +9,14 @@
 
 ## Psychological disorders and Learning
 
-## Measuring Learning, Different Paradigms 
+## Measuring Learning, Different Paradigms, Age differences
+
+[@conklinWorkingMemoryPerformance2007]
 
 ### Visual Sequence Learning 
+
+Using a forward spatial memory task that doesn't draw to much on Working memory seems a suitable choice to compare a different subjects in a with a large age range as in this study, since [@conklinWorkingMemoryPerformance2007] found that *"The order in which performance was mastered on each WM task during adolescence closely paralleled the order in which the substrates demonstrated to subserve these WM tasks mature developmentally"*. 
+
 
 ## Why EEG 
 

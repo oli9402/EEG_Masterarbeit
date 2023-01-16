@@ -2815,6 +2815,90 @@
             "volume": "216"
         },
         {
+            "DOI": "10.1111/1460-6984.12781",
+            "ISSN": "1460-6984",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1460-6984.12781",
+            "abstract": "Background Aphasia is often accompanied by impairment of non-language cognitive functions. Assessment of cognitive capacity in people with aphasia (PWA) with standard neuropsychological methods may be problematic due to their language difficulties. Numerous experimental studies indicate that P300 may be considered as an index of cognitive capacity in both healthy and clinical samples. Accordingly, the measurement of event-related potentials enables the investigation of behaviourally non-observable mental processes underlying the cognitive functions that are assessed with neuropsychological tests. Aims To investigate in PWA the relationship between P300 parameters and cognitive function efficiency measured with neuropsychological methods. Methods & Procedures A total of 25 PWA after left-hemispheric stroke participated in the study. Electrophysiological (EEG) signals were recorded during the performance of a visual Go-No Go task. P300 was identified on nine electrodes, which were then pooled in three lines: left (F3, C3, P3), central (Fz, Cz, Pz) and right (F4, C4, P4). The neuropsychological assessment of cognitive functions included mental speed, short-term memory, divided attention, executive functions, auditory language comprehension and expression. Outcomes & Results P300 latency correlated with indices of several cognitive functions: temporal resolution, psychomotor speed, spatial short-term memory, planning, word and sentence comprehension, as well as verbal fluency. Shorter P300 latencies were accompanied by greater efficiency of the abovementioned functions. In contrast, significant correlations between P300 amplitudes and cognitive measures were fragmentary. Conclusions & Implications In PWA, P300 latency might be related to cognitive functioning, especially to measures that rely heavily on the speed of information processing. However, P300 seems to be unrelated to more complex cognitive functions. P300 latency may be used as a neurophysiological correlate of cognitive efficiency in PWA and might have potential applications in monitoring the effects of therapeutic interventions in this patient group. What this paper adds What is already known on the subject P300 parameters have been reported to be associated with cognitive performance in both healthy individuals and clinical groups (e.g., patients with Alzheimer’s disease). Previous studies show that the presence of P300 at the early post-stroke stage may be a predictor of better recovery of comprehension in PWA. What this paper adds to existing knowledge Our results show for the first time that P300 may be used as a neurophysiological correlate of cognitive efficiency in PWA. In our study, P300 latency was associated with several languages and non-language cognitive functions, especially with those whose effectiveness depends mainly on processing speed. In PWA, shorter latency corresponded to more efficient cognitive functioning. What are the potential or actual clinical implications of this work? P300 measurement may be potentially useful in assessing the efficiency of certain cognitive functions in PWA. It may be also used to monitor the recovery process of PWA and to verify the effects of therapeutic interventions.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "annote": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1460-6984.12781",
+            "author": [
+                {
+                    "family": "Choinski",
+                    "given": "Mateusz"
+                },
+                {
+                    "family": "Szelag",
+                    "given": "Elzbieta"
+                },
+                {
+                    "family": "Wolak",
+                    "given": "Tomasz"
+                },
+                {
+                    "family": "Szymaszek",
+                    "given": "Aneta"
+                }
+            ],
+            "container-title": "International Journal of Language & Communication Disorders",
+            "id": "choinskiNeuropsychologicalCorrelatesP300",
+            "issue": "n/a",
+            "keyword": "aphasia,cognition,evoked-related potientials,mental status,P300",
+            "language": "en-US",
+            "title": "Neuropsychological Correlates of P300 Parameters in Individuals with Aphasia",
+            "type": "article-journal",
+            "volume": "n/a"
+        },
+        {
+            "DOI": "10.1111/1460-6984.12781",
+            "ISSN": "1460-6984",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/1460-6984.12781",
+            "abstract": "Background Aphasia is often accompanied by impairment of non-language cognitive functions. Assessment of cognitive capacity in people with aphasia (PWA) with standard neuropsychological methods may be problematic due to their language difficulties. Numerous experimental studies indicate that P300 may be considered as an index of cognitive capacity in both healthy and clinical samples. Accordingly, the measurement of event-related potentials enables the investigation of behaviourally non-observable mental processes underlying the cognitive functions that are assessed with neuropsychological tests. Aims To investigate in PWA the relationship between P300 parameters and cognitive function efficiency measured with neuropsychological methods. Methods & Procedures A total of 25 PWA after left-hemispheric stroke participated in the study. Electrophysiological (EEG) signals were recorded during the performance of a visual Go-No Go task. P300 was identified on nine electrodes, which were then pooled in three lines: left (F3, C3, P3), central (Fz, Cz, Pz) and right (F4, C4, P4). The neuropsychological assessment of cognitive functions included mental speed, short-term memory, divided attention, executive functions, auditory language comprehension and expression. Outcomes & Results P300 latency correlated with indices of several cognitive functions: temporal resolution, psychomotor speed, spatial short-term memory, planning, word and sentence comprehension, as well as verbal fluency. Shorter P300 latencies were accompanied by greater efficiency of the abovementioned functions. In contrast, significant correlations between P300 amplitudes and cognitive measures were fragmentary. Conclusions & Implications In PWA, P300 latency might be related to cognitive functioning, especially to measures that rely heavily on the speed of information processing. However, P300 seems to be unrelated to more complex cognitive functions. P300 latency may be used as a neurophysiological correlate of cognitive efficiency in PWA and might have potential applications in monitoring the effects of therapeutic interventions in this patient group. What this paper adds What is already known on the subject P300 parameters have been reported to be associated with cognitive performance in both healthy individuals and clinical groups (e.g., patients with Alzheimer’s disease). Previous studies show that the presence of P300 at the early post-stroke stage may be a predictor of better recovery of comprehension in PWA. What this paper adds to existing knowledge Our results show for the first time that P300 may be used as a neurophysiological correlate of cognitive efficiency in PWA. In our study, P300 latency was associated with several languages and non-language cognitive functions, especially with those whose effectiveness depends mainly on processing speed. In PWA, shorter latency corresponded to more efficient cognitive functioning. What are the potential or actual clinical implications of this work? P300 measurement may be potentially useful in assessing the efficiency of certain cognitive functions in PWA. It may be also used to monitor the recovery process of PWA and to verify the effects of therapeutic interventions.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        8
+                    ]
+                ]
+            },
+            "annote": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1460-6984.12781",
+            "author": [
+                {
+                    "family": "Choinski",
+                    "given": "Mateusz"
+                },
+                {
+                    "family": "Szelag",
+                    "given": "Elzbieta"
+                },
+                {
+                    "family": "Wolak",
+                    "given": "Tomasz"
+                },
+                {
+                    "family": "Szymaszek",
+                    "given": "Aneta"
+                }
+            ],
+            "container-title": "International Journal of Language & Communication Disorders",
+            "id": "choinskiNeuropsychologicalCorrelatesP300a",
+            "issue": "n/a",
+            "keyword": "aphasia,cognition,evoked-related potientials,mental status,P300",
+            "language": "en-US",
+            "title": "Neuropsychological Correlates of P300 Parameters in Individuals with Aphasia",
+            "type": "article-journal",
+            "volume": "n/a"
+        },
+        {
             "ISBN": "978-0-262-01987-3",
             "author": [
                 {
@@ -2906,6 +2990,7 @@
                     ]
                 ]
             },
+            "annote": "⭐🟢",
             "author": [
                 {
                     "family": "Conklin",
@@ -4987,6 +5072,59 @@
             "volume": "82"
         },
         {
+            "DOI": "10.1097/DBP.0b013e3181c21c97",
+            "ISSN": "0196-206X",
+            "URL": "https://journals.lww.com/jrnldbp/Abstract/2009/12000/Executive_Function_in_Adolescence_Among_Children.7.aspx",
+            "abstract": "Objective:  Little is known about executive function among adolescents with a childhood diagnosis of attention-deficit/hyperactivity disorder (ADHD), and there is a lack of such information in an ethnic Chinese population. This study investigated nonverbal executive functions in adolescence among Taiwanese children with ADHD. Methods:  The sample included fifty-three 11- to 16-year-old adolescents (male, 75.5%) with a childhood diagnosis of ADHD according to the DSM-IV criteria, and 53 age-, sex-, IQ-, and parental education-matched comparison adolescents. They were assessed using psychiatric interviews (mothers included), the Weschler Intelligence Scale for Children-3rd edition, and the tasks involving the executive functions of the Cambridge neuropsychological test automated battery: the spatial span, spatial working memory, intradimensional/extradimensional shifts, and stocking of Cambridge. A linear multilevel model was used for data analysis for the matched case-control study design and repeated measures within the same participants. Results:  Forty-three adolescents (81.1%) had persistent DSM-IV ADHD diagnosis. The ADHD group made more errors in the spatial span and spatial working memory, had more complete stage trials in the intradimensional/extradimensional shifts, and had fewer problems solved and shorter initial and subsequent thinking time in the stockings of Cambridge than the controls. The magnitudes of group differences increased with increased task difficulties. Persistent ADHD and methylphenidate did not make significant difference in executive functions. Conclusions:  The findings of the authors suggest that adolescents with childhood ADHD need extra assistance when they are assigned complex tasks regardless of persistence of ADHD at adolescence.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Gau",
+                    "given": "Susan Shur-Fen"
+                },
+                {
+                    "family": "Chiu",
+                    "given": "Chui-De"
+                },
+                {
+                    "family": "Shang",
+                    "given": "Chi-Yung"
+                },
+                {
+                    "family": "Cheng",
+                    "given": "Andrew Tai-Ann"
+                },
+                {
+                    "family": "Soong",
+                    "given": "Wei-Tsuen"
+                }
+            ],
+            "container-title": "Journal of Developmental & Behavioral Pediatrics",
+            "id": "gauExecutiveFunctionAdolescence2009",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        12
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "525",
+            "title": "Executive Function in Adolescence Among Children With Attention-Deficit/Hyperactivity Disorder in Taiwan",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
             "abstract": "Researcher degrees of freedom can lead to a multiple comparisons problem, even in settings where researchers perform only a single analysis on their data. The problem is there can be a large number of potential comparisons when the details of data analysis are highly contingent on data, without the researcher having to perform any conscious procedure of fishing or examining multiple p-values. We discuss in the context of several examples of published papers where data-analysis decisions were theoretically-motivated based on previous literature, but where the details of data selection and analysis were not pre-specified and, as a result, were contingent on data.",
             "author": [
                 {
@@ -5623,6 +5761,133 @@
             "title": "How Computational Modeling Can Force Theory Building in Psychological Science",
             "type": "article-journal",
             "volume": "16"
+        },
+        {
+            "DOI": "10.1016/j.brainres.2018.02.004",
+            "ISSN": "0006-8993",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0006899318300623",
+            "abstract": "Short-term memory and working memory are two closely-related concepts that involve the prefrontal and parietal areas. These two types of memory have been evaluated by means of the spatial span task in its forward and backward conditions, respectively. To determine possible neurofunctional differences between them, this study recorded electroencephalographic activity (EEG) in the frontopolar (Fp1, Fp2), dorsolateral (F3, F4), and parietal (P3 and P4) areas during performance of the forward and backward conditions of this task in young men. The backward condition (an indicator of working memory) was characterized by fewer correct answers, higher absolute power (AP) of the delta band in dorsolateral areas, and a lower correlation between frontopolar and dorsolateral regions in the fast bands (alpha, beta and gamma), mainly in the right hemisphere. The prefrontal EEG changes during backward performance may be associated with the higher attentional demands and inhibition processes required to invert the order of reproduction of a sequence. These data provide evidence that the forward and backward conditions of the spatial span task can be distinguished on the basis of neurofunctional activity and performance, and that each one is associated with a distinct pattern of electrical activity and synchronization between prefrontal areas. The higher AP of the delta band and lower correlation of the fast bands, particularly between right prefrontal areas during the backward condition of this visuospatial task, suggest greater participation by the right prefrontal areas in working memory.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Guevara",
+                    "given": "Miguel Angel"
+                },
+                {
+                    "family": "Cruz Paniagua",
+                    "given": "Edwin Iván"
+                },
+                {
+                    "family": "Hernández González",
+                    "given": "Marisela"
+                },
+                {
+                    "family": "Sandoval Carrillo",
+                    "given": "Ivett Karina"
+                },
+                {
+                    "family": "Almanza Sepúlveda",
+                    "given": "Mayra Linné"
+                },
+                {
+                    "family": "Hevia Orozco",
+                    "given": "Jorge Carlos"
+                },
+                {
+                    "family": "Amezcua Gutiérrez",
+                    "given": "Claudia"
+                }
+            ],
+            "container-title": "Brain Research",
+            "container-title-short": "Brain Research",
+            "id": "guevaraEEGActivitySpatial2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        3,
+                        15
+                    ]
+                ]
+            },
+            "keyword": "EEG,Parietal area,Prefrontal area,Short-term memory,Visuospatial task,Working memory",
+            "language": "en-US",
+            "page": "86-94",
+            "title": "EEG Activity during the Spatial Span Task in Young Men: Differences between Short-Term and Working Memory",
+            "title-short": "EEG Activity during the Spatial Span Task in Young Men",
+            "type": "article-journal",
+            "volume": "1683"
+        },
+        {
+            "DOI": "10.1016/j.brainres.2018.02.004",
+            "ISSN": "00068993",
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0006899318300623",
+            "abstract": "Short-term memory and working memory are two closely-related concepts that involve the prefrontal and parietal areas. These two types of memory have been evaluated by means of the spatial span task in its forward and backward conditions, respectively. To determine possible neurofunctional differences between them, this study recorded electroencephalographic activity (EEG) in the frontopolar (Fp1, Fp2), dorsolateral (F3, F4), and parietal (P3 and P4) areas during performance of the forward and backward conditions of this task in young men. The backward condition (an indicator of working memory) was characterized by fewer correct answers, higher absolute power (AP) of the delta band in dorsolateral areas, and a lower correlation between frontopolar and dorsolateral regions in the fast bands (alpha, beta and gamma), mainly in the right hemisphere. The prefrontal EEG changes during backward performance may be associated with the higher attentional demands and inhibition processes required to invert the order of reproduction of a sequence. These data provide evidence that the forward and backward conditions of the spatial span task can be distinguished on the basis of neurofunctional activity and performance, and that each one is associated with a distinct pattern of electrical activity and synchronization between prefrontal areas. The higher AP of the delta band and lower correlation of the fast bands, particularly between right prefrontal areas during the backward condition of this visuospatial task, suggest greater participation by the right prefrontal areas in working memory.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "annote": "🟡",
+            "author": [
+                {
+                    "family": "Guevara",
+                    "given": "Miguel Angel"
+                },
+                {
+                    "family": "Cruz Paniagua",
+                    "given": "Edwin Iván"
+                },
+                {
+                    "family": "Hernández González",
+                    "given": "Marisela"
+                },
+                {
+                    "family": "Sandoval Carrillo",
+                    "given": "Ivett Karina"
+                },
+                {
+                    "family": "Almanza Sepúlveda",
+                    "given": "Mayra Linné"
+                },
+                {
+                    "family": "Hevia Orozco",
+                    "given": "Jorge Carlos"
+                },
+                {
+                    "family": "Amezcua Gutiérrez",
+                    "given": "Claudia"
+                }
+            ],
+            "container-title": "Brain Research",
+            "container-title-short": "Brain Research",
+            "id": "guevaraEEGActivitySpatial2018a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        3
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "86-94",
+            "title": "EEG Activity during the Spatial Span Task in Young Men: Differences between Short-Term and Working Memory",
+            "title-short": "EEG Activity during the Spatial Span Task in Young Men",
+            "type": "article-journal",
+            "volume": "1683"
         },
         {
             "DOI": "10.1111/psyp.13570",
@@ -9746,6 +10011,56 @@
             "title": "Measurement Error and the Replication Crisis",
             "type": "article-journal",
             "volume": "355"
+        },
+        {
+            "DOI": "10.1111/j.1467-8624.2005.00872.x",
+            "ISSN": "0009-3920, 1467-8624",
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8624.2005.00872.x",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "annote": "🟡⭐",
+            "author": [
+                {
+                    "family": "Luciana",
+                    "given": "Monica"
+                },
+                {
+                    "family": "Conklin",
+                    "given": "Heather M."
+                },
+                {
+                    "family": "Hooper",
+                    "given": "Catalina J."
+                },
+                {
+                    "family": "Yarger",
+                    "given": "Rebecca S."
+                }
+            ],
+            "container-title": "Child Development",
+            "container-title-short": "Child Development",
+            "id": "lucianaDevelopmentNonverbalWorking2005",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "697-712",
+            "title": "The Development of Nonverbal Working Memory and Executive Control Processes in Adolescents",
+            "type": "article-journal",
+            "volume": "76"
         },
         {
             "DOI": "10.1111/psyp.12639",
@@ -14367,6 +14682,49 @@
             "type": "chapter"
         },
         {
+            "DOI": "10.1073/pnas.95.20.12061",
+            "ISSN": "0027-8424, 1091-6490",
+            "URL": "https://pnas.org/doi/full/10.1073/pnas.95.20.12061",
+            "abstract": "We review a program of research that uses neuroimaging techniques to determine the functional and neural architecture of human working memory. A first set of studies indicates that verbal working memory includes a storage component, which is implemented neurally by areas in the left-hemisphere posterior parietal cortex, and a subvocal rehearsal component, which is implemented by lefthemisphere speech areas, including Broca’s area as well as the premotor and supplementary motor areas. We provide a number of neuroimaging dissociations between the storage and rehearsal areas. A second set of studies focuses on spatial working memory and indicates that it is mediated by a network of predominantly right-hemisphere regions that include areas in posterior parietal, occipital, and frontal cortex. We provide some suggestive evidence that these areas, too, divide into storage and rehearsal regions, with right-hemisphere posterior parietal and premotor regions subserving spatial rehearsal. In a final set of studies, we turn to “‘executive processes,’” metaprocesses that regulate the processing of working-memory contents. We focus on the executive process of inhibition as it is used in verbal working memory. We provide evidence that such inhibition is mediated by the left-hemisphere prefrontal region and that it can be dissociated from verbal storage and rehearsal processes.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Edward E."
+                },
+                {
+                    "family": "Jonides",
+                    "given": "John"
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "container-title-short": "Proc. Natl. Acad. Sci. U.S.A.",
+            "id": "smithNeuroimagingAnalysesHuman1998",
+            "issue": "20",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998,
+                        9,
+                        29
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "12061-12068",
+            "title": "Neuroimaging Analyses of Human Working Memory",
+            "type": "article-journal",
+            "volume": "95"
+        },
+        {
             "DOI": "10.1016/j.jmp.2021.102632",
             "ISSN": "0022-2496",
             "URL": "https://www.sciencedirect.com/science/article/pii/S0022249621000973",
@@ -15267,6 +15625,47 @@
             "page": "76",
             "title": "Preference, Impulsivity, and Self-Control",
             "type": "article-journal"
+        },
+        {
+            "DOI": "10.1038/nature02466",
+            "ISSN": "0028-0836, 1476-4687",
+            "URL": "http://www.nature.com/articles/nature02466",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Todd",
+                    "given": "J. Jay"
+                },
+                {
+                    "family": "Marois",
+                    "given": "René"
+                }
+            ],
+            "container-title": "Nature",
+            "container-title-short": "Nature",
+            "id": "toddCapacityLimitVisual2004",
+            "issue": "6984",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004,
+                        4
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "751-754",
+            "title": "Capacity Limit of Visual Short-Term Memory in Human Posterior Parietal Cortex",
+            "type": "article-journal",
+            "volume": "428"
         },
         {
             "URL": "https://www.sciencedirect.com/science/article/pii/S1053811916301173?casa_token=rvxEbsLsJMQAAAAA:lClcgUzMTQBIO4iyjPVBo7CcU0SuPK5Xi_rgYz7aTwZyafzC4t7I7bHOoS_hsaZGWQ4uxJn4BA",
@@ -17889,6 +18288,47 @@
             "title": "The Neurocognitive Effects of Alcohol on Adolescents and College Students",
             "type": "article-journal",
             "volume": "40"
+        },
+        {
+            "ISSN": "1662-5161",
+            "URL": "https://www.frontiersin.org/articles/10.3389/fnhum.2012.00070",
+            "abstract": "A critical aspect of inferential reasoning is the ability to form relationships between items or events that were not experienced together. This review considers different perspectives on the role of the hippocampus in successful inferential reasoning during both memory encoding and retrieval. Intuitively, inference can be thought of as a logical process by which elements of individual existing memories are retrieved and recombined to answer novel questions. Such flexible retrieval is sub-served by the hippocampus and is thought to require specialized hippocampal encoding mechanisms that discretely code events such that event elements are individually accessible from memory. In addition to retrieval-based inference, recent research has also focused on hippocampal processes that support the combination of information acquired across multiple experiences during encoding. This mechanism suggests that by recalling past events during new experiences, connections can be created between newly formed and existing memories. Such hippocampally mediated memory integration would thus underlie the formation of networks of related memories that extend beyond direct experience to anticipate future judgments about the relationships between items and events. We also discuss integrative encoding in the context of emerging evidence linking the hippocampus to the formation of schemas as well as prospective theories of hippocampal function that suggest memories are actively constructed to anticipate future decisions and actions.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Zeithamova",
+                    "given": "Dagmar"
+                },
+                {
+                    "family": "Schlichting",
+                    "given": "Margaret"
+                },
+                {
+                    "family": "Preston",
+                    "given": "Alison"
+                }
+            ],
+            "container-title": "Frontiers in Human Neuroscience",
+            "id": "zeithamovaHippocampusInferentialReasoning2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "title": "The Hippocampus and Inferential Reasoning: Building Memories to Navigate Future Decisions",
+            "title-short": "The Hippocampus and Inferential Reasoning",
+            "type": "article-journal",
+            "volume": "6"
         },
         {
             "DOI": "10.1109/TAFFC.2020.2981440",

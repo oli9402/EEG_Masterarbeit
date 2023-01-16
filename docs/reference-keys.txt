@@ -6,7 +6,10 @@ fig:topo
 fig:topo-n
 fig:erp
 fig:raincloud
+fig:kili
 fig:ki-perf
+fig:li-perf
+fig:erpunnlk
 documentation-of-scripts
 a1_table_eeg_bd
 details
@@ -15,6 +18,7 @@ a2_add_demo
 details-1
 saved-files-1
 a2_1_exlcude
+a2_2_perfgroups
 a3_1_topo
 details-2
 a3_compute_latencies
@@ -24,7 +28,7 @@ a4_plots
 Intro
 importance-of-learning
 psychological-disorders-and-learning
-measuring-learning-different-paradigms
+measuring-learning-different-paradigms-age-differences
 visual-sequence-learning
 why-eeg
 biomarker-and-research-domain-critica
@@ -38,13 +42,15 @@ methods
 sample
 diagnosis
 eeg-and-age-groups
-time-window-electrodes
+brain-changes-in-children-and-adolesecents
 mixed-models
 clusteranalyse
 Results
 behavioral-data
+learning-states
 knowledge-index-and-learning-index
 do-subjects-learn
+erp
 Disscusion
 Limitations
 Further
